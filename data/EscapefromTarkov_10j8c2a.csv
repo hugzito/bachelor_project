@@ -1,0 +1,162 @@
+author,comment
+SnakeeeDoctor,That was a very interesting read. Thanks for taking the time.
+Hendeith,"BSG wasn't able to fix Steam Audio by using already available path tracing, I doubt they will be able to create their own solution for Oculus Audio."
+PureRushPwneD,I'm going mad from hearing everything happening super clearly through the parking garage floor in interchange.. like a meter of concrete xD
+niceBobJobShowVagene,"Do you guys get the ""walking through bushes makes no sound"" bug as well?"
+Leeps,"Mainly yes, but the path tracing element of this post is a little confusing. The gold standard of game sound is to allow the sound to behave as sound - i. E. waves not rays. Rays don't allow diffraction and other effects that really do change how sounds propegate. The reason you can thave a Ray based system allowing sound to mainly come from a door for instance is that it won't bend the Ray around the door to give you enough level at the listening position. Diffraction does that.
+
+You can bodge around the issue by letting a path trace find the nearest door to propagate through, and the falsify diffraction by taking the listener position and reducing the level to them based on an angle... Or something else. You're really just designing around a proper physics system though, and it's a lot of manual work. 
+
+Since the maps are basically static , they should look at a solution similar to Microsoft project acoustics for this. It calculates the wave propagation of source and reciever and pre-bakes it into the map which is how lighting is done usually. This makes it performant and high quality sounding, with the caveat that the map can't move. There would need to be a manual intervention around doors to accommodate this."
+Fictitious1267,"Seems more likely they would just fudge with occlusion zones around stairs, than learn how to properly program path tracing. Also, sounds like it would be a bit CPU intensive (just a guess)."
+Uncle_Bobby_B_,I know nothing about the science behind it. I just know that’s it’s dogshit
+AIpacaman,">the audio propagation system models occlusion with a simple line-of-sight calculation, and does not model diffraction. That means that the transition from audible to obstructed can be abrupt and may require some adjustments.
+
+That actually makes a ton of sense. This issue is everywhere, even outside. So many times this wipe I've heard someone run/sprint, then suddenly make them make no noise. Every time this happened I assumed they were lying down or sitting somewhere to ambush me.
+
+Most likely they just kept running and some giant sound blocking object, like a single tree branch, got in the way and cut out the audio.
+
+This is actually worrying because while Binaural is currently broken and would fix the sound direction (front/back), it won't fix this issue of sound randomly just stopping because of what I assume is occlusion. This is just the steam audio stairs occlusion issue all over again."
+ThatOneMartian,I suspect your research for this post means you have more knowledge on either sound system than anyone at BSG.
+Ivandragosgopnikson,"If after 7 years they cannot get the audio working right, they never will. 
+
+To quote pro-racer Casey Stoner ""Your ambitions outweigh your talent""."
+bufandatl,Yeah. No matter what library you use. When feed it a pile of crap only a pile of crap can come out. It may be polished but it’s definitely still crap.
+Wulfgar_RIP,"Question: How much work is put on CPU with new engine compared to steam audio. Are we talking something silly that shouldn't be noticeable let say Ryzen 2000 series (best case implementation)? Can work it's doing can be offload to additional cores or it's dumped onto same cores as all game processing.
+
+Tarkov isn't exactly CPU light game and putting even more burden on it seems unreasonable"
+brochochocho,"That explains some of the audio issues for sure but that doesn’t explain why we’ve now completely lost audio for some props like trees and bushes on some maps in some places. Or why we no longer have quieter movement sounds for walking or crouching walking. Or why directionality is completely gone in some places where someone multiple stories above you sounds like they’re right next to you. 
+
+The audio is straight up misleading both in terms of directionality and location. It’s also way too loud to the point where I can hear very clearly someone that is not only 20 meters away from me but also with two concrete walls between us. 
+
+I feel like this should have been a closed beta server test thing and not a let’s roll out broken audio onto the player base test.
+
+I’ve had multiple idiots argue with me that it’s somehow better to roll out broken as fuck audio onto unsuspecting players in a wipe and let them bug report it and test it for BSG. Well, how is that working for you guys so far? Unless people are doing systematic tests like Onepeg and recording videos to show the issues, the bug reports are next to useless because most of these issues come from server props not having proper sound parameters. This is something that BSG needs to test manually themselves to figure out the behaviour of their sound. They already know that bushes and trees don’t always make sound. They already know that lateral directionality is very odd. This audio needs to either go or it needs significant patching now."
+Teftthebridgeman,"I read this as the game is broken beyond repair and BSG would have to pay good money to get it fixed....
+
+Fuck, we are getting scammed aren't we?"
+im_no_rookie,"how feasible is a dolby atmos integration instead? overwatch's spatial audio with dolby atmos is very good on 7.1 headphones, same with BF1/5 and MW19/MW2. i can make out what rooms and on what floors people are in, in those games. what about if they hand-rolled their own 3D audio engine like crytek did for hunt? (another game where echolocation is consistent, readable, and 3D).
+
+with the surprising amount of tech debt in this game and so many resources continually pooled into adding new content (and seemingly very little to fix things and make the game run more stable), im honestly just worried the audio will always be shit. not only has readable 2D audio been a basic requirement of FPS games since the dawn of time (and tarkov STILL sucks ass at it), software-rendered 3D audio is becoming more and more commonplace in the genre. on a side-note, it's also sad it took this long for software-based approaches to become an industry standard since the death of consumer sound cards. the 3D audio in games like thief: the dark project and GTA SA with EAX work so insanely well. and those games are from 1999 and 2004 respectively. 
+
+meanwhile, 7 (i believe) years into tarkovs development and we still have some of the worst audio imaginable, when games in the early 2000s had 3D audio so good you could press your (Garrett's) ear up against a door and make out how many footsteps worth of guards there are and exactly where. this is meant to be a realistic milsim survival game where skulking about is one of your most important tools, with variable walking speeds to tune your sound made, with multi-story buildings designed through quests and level flow to be the biggest PvP havens (dorms and resort for example), and the sound doesn't work. was this even QA'd when pushed thru?
+
+and then you realize this is just ONE major, almost game-breaking issue the game has. this whole game is a jenga tower waiting to collapse."
+_F1GHT3R_,"That explains a lot of the problems i noticed with sound recently... For example i stood at the top of a staircase and looked at a friend of mine as he walked down and into the hallway. He shot a scav and i saw him shooting, but no sound of it could be heard."
+Obsidian_mkULTRA,Good insight
+Anonymous3355,"What you mentioned with the example of staircases, that happened to a friend of mine and myself. I was in a bunker on Woods, and was about to come when I only see some flashes outside and hear my friend say he's dead. I come out and there's a scav standing to my right. I didn't hear either of them shoot. Nothing. Not even steps or anything.
+
+This post explains it well. Good to hear it wasn't just a me issue."
+Special_Function,From the second I saw they switched to Oculus audio I knew it wouldn't be good. Oculus Audio is NOT meant for FPS games at all.
+stve30,A quality post on this sub after years bro . Thank you .
+Frosty252,"so not only did a couple of people post about how to kinda solve the big cheating issue, or at least reduce it by a lot, now we have an audio engineer giving advice.
+
+next we'll have people actually developing the game for them."
+sasikaa,Thank you very much for this long exhaustive description. I had fun and learned a little more about it.
+Kirsutan,"You should file a bug report and link the Microsoft Project Acoustics, might reach the team best that way. (I filed multiple bug reports about the game using an old DLSS version that has ghosting, and they said they'll forward it to the team. Now there's a DLSS update coming finally.)"
+DiViNiTY1337,It was kind of a meme toward the end of the Twitch drops when Chads were reaching level 45+ and everyone ran Altyn helmets eeevery raid cause they literally couldn't hear anything at all reliably anyway so why not use the best helmets in the game since they currently have no considerable debuffs. LOL. I mean that's kind of crazy isn't it? I really don't even know what to say to that.
+olishoplifter,It almost feels like they took all the audio boxes and merged them into one.
+LordSaladz,Award given. Thank you for sharing your expertise and making it understandable. Hopefully this makes it onto the computer screens of some BSG devs.
+PotentiallyNotSatan,"Don't worry guys, next wipe we'll have another HRTF middleware that they don't know how to use
+
+Edit: just saw OP's edit kek"
+chengstark,"Em, I for one think the steam audio was live-able in most cases. However, I think there are more serious issue at play here impeding implementation of standard packages (I.e. incorrect bandaid implementation in other parts of the game causing issue here)."
+futilecause,"heres my, not an audio engineer, take on why the switch was a bad move.
+
+
+
+it sounds like ass."
+Sneaky_Rhin0,"at this point as much as they dont want to do it, remaking the game from the ground up using clean code and moving to unreal engine would benefit everyone in the long run. but they are not going to admit their coding misstakes if they even are able to have that conversation to begin with. i think most of us are just waiting for a new game studio to pickup tarkov and copy its design and weapon gunplay and release it using a better engine without strangled code and no willingness from devs to communicate to take feedback. 
+
+things that were broken in testing are still broken on patch release, like iron sights, flashlights on weapons, sound having tainted audio playing in the background while they recorded it etc, we can all go on forever but its the harsh truth, the game has so much potential but the devs are just not as passionate anymore"
+I_am_Potatoe,"I have no problem because i have no Sound 
+
+No joking, shooting my bolt action yesterday, the sound came in 1sek later"
+ShadowZpeak,"If sound in Tarkov isn't path traced it's been done wrong, fight me"
+CrashTimeV,BSG can’t make a stable game thinking they will make a custom audio solution is just unthinkable
+BooBs_In_My_Inbox,I've got to find another game. This broken trash is just a stupid waste of time.
+Raikohhh,"Interesting post, Nikita plan is to swtich to another system in 2 years probably so don't worry, he got everything figured out."
+Rootorii,So the tl:dr is BSG could never fix audio.
+DeepSpaceDoge,laughing in hesuvi
+ghosteye21,"I like the audio, i can hear where people are coming from. Idk why people are complaining."
+pointy_pirate,"nice right up. I would guess their move to oculus audio wasn't because it was going to sound better, probably other trade offs."
+disgruntledcow,"Nikita, can you please hire this guy?"
+_Bike_seat_sniffer,"So basically they didn't even test the plugin, read it's documentation and consider whether or not it can actually be adopted into their game before chucking it in anyway? I'm not expecting them to move back on it, it would make them look stupid. This audio plugin is here to stay."
+MyNameIsRay,">the audio propagation system models occlusion with a simple line-of-sight calculation, and does not model diffraction. That means that the transition from audible to obstructed can be abrupt and may require some adjustments.
+
+It's glaringly obvious any time there's a constant sound (scavs yelling, machine gun fire, sirens) that the transitions are a hard line.
+
+You pass a doorway or round a corner, and sound suddenly goes from distant and muffled to loud and clear. 
+
+It's so unnatural, it seems so wrong."
+daddystrongdick,Plz apply to work from home for battlestate and help us
+lurkslikenobodysbiz,"I came to the subreddit today to see if anyone else was having absolutely terrible issues with sound. People are running up to me and I can't hear them at all until they start shooting at me point blank. The sound has actually gotten so much worse, and that's saying something."
+savvysnekk,"My big question is whether they knew they were gonna release broken audio or not. If they didn't know, how did they not know? If they did know, why release it when they knew it wasn't working?"
+xARCTIC_,"Honestly r6s method for sound propagation is really good on paper. Just it's currently implementation is buggy. 
+
+Sound used to be so good in siege."
+LargeSticker,"
+The maps are completely static. There seems to be no reason paths can’t be implemented. It just feels like BSG doesn’t have the talent to put this game together time & time again. Hire a new audio team or build the game from the ground up in a new engine. Become a AAA game studio BSG this game deserves to be professionally developed."
+Conserliberaltarian,"The switch to oculus was for technical reasons, not sound quality reasons. 
+
+BSG has compatibility issues between Tarkov and steam audio, and couldn't figure out a fix after 2 years. They dropped it and moved on."
+psychoPiper,"While Rainbow Six gets a lot of flak for it's audio, it works exactly how you described and helps staircase situations about half the time, which is better than Tarkov now. It can be a bit weird to hear someone below you and on your left through your right ear just because the floor is open to your right, but it's at least better for tracing the shortest path to your enemy and sounds more like real life. I don't have a lot of experience in Tarkov because being a beginner in this game right now is absolute hell, but even I can notice a significant difference in audio readability between the two games. Good post"
+psychoPiper,"While Rainbow Six gets a lot of flak for it's audio, it works exactly how you described and helps staircase situations about half the time, which is better than Tarkov now. It can be a bit weird to hear someone below you and on your left through your right ear just because the floor is open to your right, but it's at least better for tracing the shortest path to your enemy and sounds more like real life. I don't have a lot of experience in Tarkov because being a beginner in this game right now is absolute hell, but even I can notice a significant difference in audio readability between the two games. Good post"
+roflwafflelawl,"There's a game called 'Sectors Edge' that uses what they're calling ""[raytraced audio](https://www.youtube.com/watch?v=zbJp6J_mCXM)"" in a game with full destruction. It's actually pretty good from the little bit I played so far. 
+
+This is what I want Tarkov audio to sound like one day."
+cth777,The sudden occlusion is very evident with far away full auto gunfire. It comes and goes sharply as you move
+Actiblizzisthedevil,I don't know why they still haven't do a proper occlusion plane between the floor of interchange. I shouldn't be able to hear someone shopping while im in the parking garage.
+Kooky-Scallion7896,Loot in general seems a lot more diverse. I love finding random valuable things unexpectedly. Unlike other wipes where it was pretty much rushing the same loot spawns to find the same loot all the time
+artosispylon,when even my dumbass can tell the audio is completely fucked its gotta be real bad
+grambo__,"Complex audio systems just never work in games with detailed, vertical maps like Tarkov. Occlusion strategies are always inconsistent. That's why competitive games always have simple, clean audio, with little manipulation of volume and zero manipulation of direction.
+
+They should strip back to extremely simple stereo audio. Direction is NEVER messed with. Volume is strictly a function of distance, full stop. If sounds raytrace through a door or floor volume, apply filter (a maximum of one time) that changes the TONE of the sound, but not the VOLUME. Under no circumstances except extreme range should sounds be lowered to zero volume entirely. A lot of the ""zero audio"" issues in the old audio were due to occlosion zones going nuts, like OP said. Reverb filters can be applied to sounds that originate indoors while the player is also indoors.
+
+Tarkov is a punishing game. It is much more important for audio to be FAIR and CONSISTENT than for it to be fancy and ""realistic"".
+
+This situation would be easy to implement (basically stock Unity with a couple enhancements), way more performant than anything they've tried in the last few years, and would be FAIR. Yes, you'd hear someone 10 feet away through a wall at the same volume that you'd hear them if there was no wall. So what? Games have always worked like this. Our brains are very good at compensating for this. They don't need to reinvent the wheel when their engineering ability is far lower than AAA studios that have tried this and failed."
+tfsound,"former Microsoft Acoustics dev here (and general spatial audio nerd) here. PA would be a great solution. 
+
+Steam has a few issues that aren't mentioned here that I think apply to extraction shooters. Additionally, it's straight up a CPU hog so having to manage that in this game was probably some relief to system devs.
+
+&#x200B;
+
+ I kinda wanna speculate that moving to Oculus was to offload the cpu and leverage some of the offloading capabilities. Perhaps they're clearing some tech debt to move to other platforms.
+
+&#x200B;
+
+Pure spectulation"
+BarmeloXanthonii,feel like people with audio issues are people in discord calls with 5 other guys yelling in your ear  asking can you hear that ? “ is that up top “ ? lol idk imagine 🤷‍♂️ 💀
+Aceylah,"People run around in fights and they get a certain distance away and their footsteps just disappear, its crazy. They go from loud to nothing."
+M-Gnarles,""" This is a very specialised job requiring expert knowledge in both audio engineering and game development.""
+
+&#x200B;
+
+We are fucked guys"
+xXNodensXx,"The old audio system was clearly better.  They should have left it in and allowed us to toggle.  Let people use the old system until the new one is actually ready.
+
+They released this before it was ready because they absolutely had to do a winter wipe for marketing reasons.  Sad."
+sleepy_the_fish,"Great post man. Way to source your statements, stay natural on the topic and stayed on point."
+sleepy_the_fish,"Interchange is fucked and reserve is fucked from this audio change. Interchange is now too dark and the audio is all fucked up.  It's like Hellen Keller simulation game.    It's kind of scary right now because reserve and interchange are fucked, I hate shoreline,woods, and I hate lighthouse even tho Im good at lighthouse.  Factory is its own thing and I wouldn't play there for fun.  This is really only leaving streets and customs, and streets is very hard to get playable. Labs is very temporary because wife key cards.   I have like no maps to enjoy playing on."
+KerberoZ,"I don't think the switch matters much to be honest. I can't imagine that both of these are too different from each other.
+
+I think both can be great when implemented correctly."
+AutoModerator,"If your post is about a potential bug, glitch or exploit with Escape From Tarkov please report it through the Game Launcher. If it is not a bug, glitch or exploit report, please ignore this message.
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/EscapefromTarkov) if you have any questions or concerns.*"
+_Woods,"Nice text mate, any tips for better audio in-game?"
+lwhitmei,"Why dont bsg just make the sound simple like csgo, stop the fkin stupid idea of 2nd floor can’t hear 1st floor shit."
+JJ2JZ,"The new audio is only implemented on some of the maps so far and on those maps in only some areas - even then those locations still need tweaking and tuning. Dorms are one such location and the new audio so far is fantastic as far as I'm concerned. It definitely needs tweaks but a huge win in my eyes and certainly an improvement. Dorms audio works pretty much exactly as id expect, with some exceptions around what I think might be sound echoing or something but not sure.
+
+Anyone using interchange or shoreline as an example of why new audio = bad needs to understand it's not implemented there yet and those maps are essentially broken right now. The next patch looks to suggest that new locations may be added with the audio treatment.
+
+Even though we're play testing I think it was an awful idea to launch the new audio without all the maps supporting it but progress is worth it. The biggest mistake BSG made here was adding a ton more fuel to an already toxic fire. I'm having a blast this wipe but I'm starting to think I'm one of the few."
+Eldgrim,What is your opinion on bsg choice for free audio software? Wouldn't they get a better product and support with paid software?
+NotARealDeveloper,"Conclusion: BSG is inept and sucks at development.
+
+Nothing new."
+mnl1121,It's very evident that the talent at BSG is not sufficient for what they are trying to accomplish.
+algumnome,"This is very interesting. Exactly what Noice Guy meant with feedback in his video. 
+
+Now we must sadly watch as it gets completely ignored by BSG."
