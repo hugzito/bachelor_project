@@ -1,0 +1,1 @@
+{"Title": "Allow us to lock items in place in stash, then using auto sort doesnt sort entire inv.", "Post Text": "As per the title.", "ID": "10k1miz", "Score": 988, "Total Comments": 134, "Post URL": "https://www.reddit.com/r/EscapefromTarkov/comments/10k1miz/allow_us_to_lock_items_in_place_in_stash_then/"}
