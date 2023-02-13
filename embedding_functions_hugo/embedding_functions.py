@@ -30,7 +30,7 @@ def one_dim(sentences):
     import matplotlib.pyplot as plt
     embedded_sens = embed_comments(sentences)
     pca2 = PCA(n_components=1)
-    new_1d = pca2.fit_transform(sentence_embeddings)
+    new_1d = pca2.fit_transform(embedded_sens)
     xy = {}
     for idx,i, in enumerate(new_1d):
         xy[sentences[idx]] = i
