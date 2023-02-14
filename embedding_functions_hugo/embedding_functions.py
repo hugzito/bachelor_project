@@ -8,11 +8,14 @@ def embed_comments (comment_list):
     sentence_embeddings = sbert_model.encode(sentences)
     return sentence_embeddings
 
-def two_dims(sentences):
+def two_dims(sentences, pre_emb = False):
     import numpy as np
     from sklearn.decomposition import PCA
     import matplotlib.pyplot as plt
-    embedded_sens = embed_comments(sentences)
+    if not pre_emb:
+        embedded_sens = embed_comments(sentences)
+    else:
+        embedded_sens = sentences
     pca = PCA(n_components=2)
     new_2d = pca.fit_transform(embedded_sens)
     x = []
@@ -24,11 +27,14 @@ def two_dims(sentences):
     plot = plt.scatter(x = x, y=y)
     return [x,y,sentences], plot
 
-def one_dim(sentences):
+def one_dim(sentences, pre_emb = False):
     import numpy as np
     from sklearn.decomposition import PCA
     import matplotlib.pyplot as plt
-    embedded_sens = embed_comments(sentences)
+    if not pre_emb:
+        embedded_sens = embed_comments(sentences)
+    else:
+        embedded_sens = sentences
     pca2 = PCA(n_components=1)
     new_1d = pca2.fit_transform(embedded_sens)
     xy = {}
