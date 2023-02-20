@@ -1,4 +1,34 @@
-def embed_comments (comment_list):
+def pair_users_embeddings(dataframe, embeddings, average_out_comments = False):
+    usernames = dataframe['comment_author']
+    user_dictionary = {}
+    for author, embedded_comment in zip(usernames, embeddings):
+        if author not in user_dictionary.keys():
+            user_dictionary[author] = []
+            user_dictionary[author].append(embedded_comment)
+        else:
+            user_dictionary[author].append(embedded_comment)
+    if average_out_comments:
+        for user in user_dictionary:
+            number_or_comments = len(user_dictionary[user])
+            user_dictionary[user] = sum(user_dictionary[user])/number_or_comments
+    return user_dictionary
+
+def save_embeddings_as_csv(destination_path : str, comment_csv, comment_column : str, desired_comment_length : int):
+    from numpy import savetxt
+    '''
+    Nlp pipeline function which takes a pandas dataframe and relevant columns, performs preprocessing steps, uses sentence_transformer embeddings and saves the embeddings as a csv file.
+    '''
+    sentences = shorten_and_clean_dataset(comment_csv, comment_column, desired_comment_length)
+    embeddings = embed_comments(sentences['short'])
+    return savetxt(destination_path, embeddings, delimiter = ',')
+
+def shorten_and_clean_dataset(comment_csv, comment_column : str, desired_comment_length : int):
+    dataframe = pd.read_csv(comment_csv)
+    dataframe['cleaned_text'] = prep_pipeline(dataframe, comment_column)
+    dataframe['short'] = shorten_sens(dataframe['cleaned_text'], desired_comment_length)
+    return dataframe
+
+def embed_comments(comment_list):
     from sentence_transformers import SentenceTransformer
     sbert_model = SentenceTransformer('bert-base-nli-mean-tokens')
     import nltk
@@ -43,7 +73,17 @@ def one_dim(sentences, pre_emb = False):
     plot = plt.scatter(xy.values(),[0 for i in range(len(xy))])
     return xy, plot
 
-
+def shorten_sens(clean_text, length):
+    '''
+    Reduces the number of words per sentence to a specified length.
+    '''
+    new_sens = []
+    for sen in clean_text:
+        if len(sen.split()) > length:
+            new_sens.append(' '.join(sen.split()))
+        else:
+            new_sens.append(' '.join(sen.split()[:length]))
+    return new_sens
 
 def prep_pipeline (df, column):
 
