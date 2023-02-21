@@ -80,7 +80,7 @@ def shorten_sens(clean_text, length):
     new_sens = []
     for sen in clean_text:
         if len(sen.split()) < length:
-            if len(sen.split()) > 15: 
+            if len(sen.split()) > 10: 
                 new_sens.append(sen)
             else:
                 new_sens.append(' ')
