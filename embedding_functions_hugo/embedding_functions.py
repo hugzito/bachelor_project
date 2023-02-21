@@ -79,8 +79,11 @@ def shorten_sens(clean_text, length):
     '''
     new_sens = []
     for sen in clean_text:
-        if len(sen.split()) > length:
-            new_sens.append(' '.join(sen.split()))
+        if len(sen.split()) < length:
+            if len(sen.split()) > 15: 
+                new_sens.append(sen)
+            else:
+                new_sens.append(' ')
         else:
             new_sens.append(' '.join(sen.split()[:length]))
     return new_sens
@@ -94,7 +97,7 @@ def prep_pipeline (df, column):
     import contractions
     import pandas as pd
     # Lower every sentence 
-    df["text_clean"] = df[column].apply(lambda x: x.lower())
+    df["text_clean"] = df[column].apply(lambda x: str(x).lower())
     print('lowering done! ')
     # Expand contractions
     df["text_clean"] = df["text_clean"].apply(lambda x: contractions.fix(x))
