@@ -13,6 +13,71 @@ def pair_users_embeddings(dataframe, embeddings, average_out_comments = False):
             user_dictionary[user] = sum(user_dictionary[user])/number_or_comments
     return user_dictionary
 
+def pair_users_embeddings(dataframe, embeddings, average_out_comments = False):
+    usernames = dataframe['comment_author']
+    user_dictionary = {}
+    for author, embedded_comment in zip(usernames, embeddings):
+        if author not in user_dictionary.keys():
+            user_dictionary[author] = []
+            user_dictionary[author].append(embedded_comment)
+        else:
+            user_dictionary[author].append(embedded_comment)
+    if average_out_comments:
+        for user in user_dictionary:
+            number_or_comments = len(user_dictionary[user])
+            user_dictionary[user] = sum(user_dictionary[user])/number_or_comments
+    return user_dictionary
+
+def save_embeddings_as_npy(destination_path : str, comment_csv, comment_column : str, desired_comment_length : int):
+    import numpy as np
+    '''
+    Nlp pipeline function which takes a pandas dataframe and relevant columns, performs preprocessing steps, uses sentence_transformer embeddings and saves the embeddings as a csv file.
+    '''
+    sentences = shorten_and_clean_dataset(comment_csv, comment_column, desired_comment_length)
+    embeddings = embed_comments(sentences['short'])
+    return np.save(destination_path, embeddings)
+
+def reduce_dims_and_kmeans(user_embedding_pairs, num_of_dimensions):
+    from sklearn.decomposition import PCA
+    from sklearn.cluster import KMeans
+    import matplotlib.pyplot as plt
+    '''
+    Current version only works w 2 colors. 
+    '''
+    # Set PCA to desired number of dimensions
+    pca = PCA(n_components=num_of_dimensions)
+
+
+    pca_embeddings = pca.fit_transform(list(user_embedding_pairs.values()))
+
+    kmeans = KMeans(n_clusters=2, random_state=0) 
+
+    classes = kmeans.fit_predict(pca_embeddings)
+
+
+    label_color_map = {0 : 'r',1 : 'g'}
+    label_color = [label_color_map[l] for l in classes]
+    plt.scatter(pca_embeddings[:,0], pca_embeddings[:,1], c=label_color)
+
+def reduce_to_one_dimension_kmeans(user_embedding_pairs):
+    from sklearn.decomposition import PCA
+    from sklearn.cluster import KMeans
+    import matplotlib.pyplot as plt
+    '''
+    Current version only works w 2 colors. 
+    '''
+    # Set PCA to desired number of dimensions
+    pca = PCA(n_components=1)
+
+
+    pca_embeddings = pca.fit_transform(list(user_embedding_pairs.values()))
+
+    kmeans = KMeans(n_clusters=2, random_state=0) 
+
+    classes = kmeans.fit_predict(pca_embeddings)
+
+    return (user_embedding_pairs.keys(), classes)
+
 def save_embeddings_as_csv(destination_path : str, comment_csv, comment_column : str, desired_comment_length : int):
     from numpy import savetxt
     '''
