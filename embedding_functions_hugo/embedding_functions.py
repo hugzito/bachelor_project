@@ -89,7 +89,7 @@ def shorten_sens(clean_text, length):
             new_sens.append(' '.join(sen.split()[:length]))
     return new_sens
 
-def prep_pipeline (df, column):
+def prep_pipeline (df, column, loud=True):
 
     '''
     Takes a pandas df column containing raw natural text and cleans the text. 
@@ -99,28 +99,28 @@ def prep_pipeline (df, column):
     import pandas as pd
     # Lower every sentence 
     df["text_clean"] = df[column].apply(lambda x: str(x).lower())
-    print('lowering done! ')
+    if loud==True: print('lowering done!')
     # Expand contractions
     df["text_clean"] = df["text_clean"].apply(lambda x: contractions.fix(x))
-    print('Contractions removed!')
+    if loud==True: print('Contractions removed!')
     # remove urls
     df["text_clean"] = df["text_clean"].apply(lambda x: remove_URL(x))
-    print('urls away!')
+    if loud==True: print('urls away!')
     # remove html from the text
     df["text_clean"] = df["text_clean"].apply(lambda x: remove_html(x))
-    (print('htmls too!'))
+    if loud==True: print('htmls too!')
     # remove non-ascii 
     df["text_clean"] = df["text_clean"].apply(lambda x: remove_non_ascii(x))
-    print('asciis outta here!')
+    if loud==True: print('asciis outta here!')
     # remove special characters
     df["text_clean"] = df['text_clean'].apply(lambda x: remove_special_characters(x))
-    print('special  characs done')
+    if loud==True: print('special  characs done')
     # remove punctuation
     df["text_clean"] = df["text_clean"].apply(lambda x: remove_punct(x))
-    print('puncts done')
+    if loud==True: print('puncts done')
     # other cleaning
     df["text_clean"] = df["text_clean"].apply(lambda x: other_clean(x))
-    print('long one...')
+    if loud==True: print('long one...')
     # # correct spelling
     # df["text_clean"] = df["text_clean"].apply(lambda x: correct_spelling(x))
     # print('spelling corrected!')
