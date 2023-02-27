@@ -23,6 +23,7 @@ def save_embeddings_as_csv(destination_path : str, comment_csv, comment_column :
     return savetxt(destination_path, embeddings, delimiter = ',')
 
 def shorten_and_clean_dataset(comment_csv, comment_column : str, desired_comment_length : int):
+    import pandas as pd
     dataframe = pd.read_csv(comment_csv)
     dataframe['cleaned_text'] = prep_pipeline(dataframe, comment_column)
     dataframe['short'] = shorten_sens(dataframe['cleaned_text'], desired_comment_length)
@@ -80,7 +81,7 @@ def shorten_sens(clean_text, length):
     new_sens = []
     for sen in clean_text:
         if len(sen.split()) < length:
-            if len(sen.split()) > 10: 
+            if len(sen.split()) > 0: 
                 new_sens.append(sen)
             else:
                 new_sens.append(' ')
