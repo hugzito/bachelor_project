@@ -1,0 +1,20 @@
+Network we need to end up with:
+For every user we need a node value (embedding calculated exclusively on post title(s) reduced to a single number)
+Edge values are going to be based on a users comment to a post (based on text of comment, single number -1 for negative
+sentiment +1 for positive sentiment), these will be directed edge values (to indicate which user commented on 
+which other users post)
+
+TODO:
+ - get two dataframes:
+	- df_post with columns: post_text, post_author, post_id
+	- df_comment with columns: comment_text, comment_author, post_id
+	- (bear in mind df_comment should only include comment_authors that have made posts)
+
+ - need to figure out sentiment of comments
+ - need to figure out single value embedding of post titles
+
+EXTRA TASKS
+
+Data cleaning:
+ - exclude bot comments?
+ - exclude auto-mod comments?
