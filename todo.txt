@@ -5,6 +5,8 @@ sentiment +1 for positive sentiment), these will be directed edge values (to ind
 which other users post)
 
 TODO:
+ - modify scraping to have post author and post title text etc.
+
  - get two dataframes:
 	- df_post with columns: post_text, post_author, post_id
 	- df_comment with columns: comment_text, comment_author, post_id
