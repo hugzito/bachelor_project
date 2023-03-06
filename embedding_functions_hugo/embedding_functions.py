@@ -76,7 +76,7 @@ def reduce_to_one_dimension_kmeans(user_embedding_pairs):
 
     classes = kmeans.fit_predict(pca_embeddings)
 
-    return (user_embedding_pairs.keys(), classes)
+    return (user_embedding_pairs.keys(), classes, pca_embeddings)
 
 def save_embeddings_as_csv(destination_path : str, comment_csv, comment_column : str, desired_comment_length : int):
     from numpy import savetxt
