@@ -1,7 +1,6 @@
 MAIN TASKS
  - do bigger scrapes, we need more posts and comments in general
-	- 200 posts from top month?
-	- all top level comments from each post?
+	- scrape function made, just need to actually do the scrapes
 
 - change network notebook to use functions that can be put together to work on any given subreddit
 	- exclude self loops (posters that have commented on their own post)
