@@ -2,19 +2,16 @@ MAIN TASKS
  - do bigger scrapes, we need more posts and comments in general
 	- scrape function made, just need to actually do the scrapes
 
-- change network notebook to use functions that can be put together to work on any given subreddit
-	- exclude self loops (posters that have commented on their own post)
-	- directed edges
-	- save final datasets so we dont have to rerun things
-	- save gephx / gephi files for each subreddit network
+- network changes to make in new_approach notebook:
+	- include only users that have commented on at least 1 other persons post?
+	- implement elegant way to write to folders that do not exist, for now will have to manually create
+	- inspect node and edge values
 
  - try running michele algorithm
 
  - investigate post embeddings by visualizing and seeing if users posting similar topics are in close proximity
 	- do they make sense?
 
-EXTRA TASKS
-
-data cleaning:
- - exclude bot comments?
- - exclude auto-mod comments?
+ - data cleaning
+	- exclude bot comments?
+	- exclude auto-mod comments?

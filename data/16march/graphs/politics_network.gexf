@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-03-16">
+    <creator>NetworkX 2.8.4</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="attr" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="polarity" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Picture-unrelated" label="Picture-unrelated">
+        <attvalues>
+          <attvalue for="0" value="-4" />
+        </attvalues>
+      </node>
+      <node id="newnemo" label="newnemo">
+        <attvalues>
+          <attvalue for="0" value="-2" />
+        </attvalues>
+      </node>
+      <node id="theindependentonline" label="theindependentonline">
+        <attvalues>
+          <attvalue for="0" value="-3" />
+        </attvalues>
+      </node>
+      <node id="Ozymandias_a" label="Ozymandias_a">
+        <attvalues>
+          <attvalue for="0" value="-3" />
+        </attvalues>
+      </node>
+      <node id="slaysia" label="slaysia">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="LuvKrahft" label="LuvKrahft">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="semaphore-1842" label="semaphore-1842">
+        <attvalues>
+          <attvalue for="0" value="-1" />
+        </attvalues>
+      </node>
+      <node id="HauntingJackfruit" label="HauntingJackfruit">
+        <attvalues>
+          <attvalue for="0" value="-3" />
+        </attvalues>
+      </node>
+      <node id="bildo72" label="bildo72">
+        <attvalues>
+          <attvalue for="0" value="-2" />
+        </attvalues>
+      </node>
+      <node id="joyfullypresent" label="joyfullypresent">
+        <attvalues>
+          <attvalue for="0" value="-1" />
+        </attvalues>
+      </node>
+      <node id="boregon" label="boregon">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="CBSnews" label="CBSnews">
+        <attvalues>
+          <attvalue for="0" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Sharp_Literature_739" label="Sharp_Literature_739">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="myTchondria" label="myTchondria">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="FFFFFM" label="FFFFFM">
+        <attvalues>
+          <attvalue for="0" value="-4" />
+        </attvalues>
+      </node>
+      <node id="JackFourj4" label="JackFourj4">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="ladyem8" label="ladyem8">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Beckles28nz" label="Beckles28nz">
+        <attvalues>
+          <attvalue for="0" value="-4" />
+        </attvalues>
+      </node>
+      <node id="southpawFA" label="southpawFA">
+        <attvalues>
+          <attvalue for="0" value="-3" />
+        </attvalues>
+      </node>
+      <node id="everlovingkindness" label="everlovingkindness">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="dude_x" label="dude_x">
+        <attvalues>
+          <attvalue for="0" value="-1" />
+        </attvalues>
+      </node>
+      <node id="modooff" label="modooff">
+        <attvalues>
+          <attvalue for="0" value="-2" />
+        </attvalues>
+      </node>
+      <node id="Ok-Flamingo-1499" label="Ok-Flamingo-1499">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="WhoIsJolyonWest" label="WhoIsJolyonWest">
+        <attvalues>
+          <attvalue for="0" value="-4" />
+        </attvalues>
+      </node>
+      <node id="J_ablo" label="J_ablo">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="CrackHeadRodeo" label="CrackHeadRodeo">
+        <attvalues>
+          <attvalue for="0" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Danielnrg" label="Danielnrg">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="UWCG" label="UWCG">
+        <attvalues>
+          <attvalue for="0" value="-4" />
+        </attvalues>
+      </node>
+      <node id="e-r_bridge" label="e-r_bridge">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Scarlettail" label="Scarlettail">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="Darzanak" label="Darzanak">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="washingtonpost" label="washingtonpost">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="dread_beard" label="dread_beard">
+        <attvalues>
+          <attvalue for="0" value="-1" />
+        </attvalues>
+      </node>
+      <node id="ReallyJustTheFacts" label="ReallyJustTheFacts">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="thenewrepublic" label="thenewrepublic">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="vpuetf" label="vpuetf">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="MortWellian" label="MortWellian">
+        <attvalues>
+          <attvalue for="0" value="-1" />
+        </attvalues>
+      </node>
+      <node id="Peasant_Stockholder" label="Peasant_Stockholder">
+        <attvalues>
+          <attvalue for="0" value="-5" />
+        </attvalues>
+      </node>
+      <node id="hammadurb" label="hammadurb">
+        <attvalues>
+          <attvalue for="0" value="-1" />
+        </attvalues>
+      </node>
+      <node id="hopopo" label="hopopo" />
+      <node id="LudovicoSpecs" label="LudovicoSpecs" />
+      <node id="LieutJimDangle" label="LieutJimDangle" />
+      <node id="GDPisnotsustainable" label="GDPisnotsustainable" />
+      <node id="Teanaway99" label="Teanaway99" />
+      <node id="Hot-Bint" label="Hot-Bint" />
+      <node id="AceCombat9519" label="AceCombat9519" />
+    </nodes>
+    <edges>
+      <edge source="newnemo" target="slaysia" id="0">
+        <attvalues>
+          <attvalue for="1" value="0.8545156717300415" />
+        </attvalues>
+      </edge>
+      <edge source="newnemo" target="e-r_bridge" id="1">
+        <attvalues>
+          <attvalue for="1" value="0.9977301955223083" />
+        </attvalues>
+      </edge>
+      <edge source="LuvKrahft" target="boregon" id="2">
+        <attvalues>
+          <attvalue for="1" value="0.998308539390564" />
+        </attvalues>
+      </edge>
+      <edge source="LuvKrahft" target="modooff" id="3">
+        <attvalues>
+          <attvalue for="1" value="0.9457456469535828" />
+        </attvalues>
+      </edge>
+      <edge source="LuvKrahft" target="CrackHeadRodeo" id="4">
+        <attvalues>
+          <attvalue for="1" value="0.9951022863388062" />
+        </attvalues>
+      </edge>
+      <edge source="LuvKrahft" target="Darzanak" id="5">
+        <attvalues>
+          <attvalue for="1" value="0.6394580006599426" />
+        </attvalues>
+      </edge>
+      <edge source="LuvKrahft" target="MortWellian" id="6">
+        <attvalues>
+          <attvalue for="1" value="0.9994660019874573" />
+        </attvalues>
+      </edge>
+      <edge source="bildo72" target="dude_x" id="7">
+        <attvalues>
+          <attvalue for="1" value="0.9991962313652039" />
+        </attvalues>
+      </edge>
+      <edge source="Scarlettail" target="ladyem8" id="8">
+        <attvalues>
+          <attvalue for="1" value="0.9993601441383362" />
+        </attvalues>
+      </edge>
+      <edge source="Scarlettail" target="dude_x" id="9">
+        <attvalues>
+          <attvalue for="1" value="0.9916397929191589" />
+        </attvalues>
+      </edge>
+      <edge source="Darzanak" target="J_ablo" id="10">
+        <attvalues>
+          <attvalue for="1" value="0.7233290076255798" />
+        </attvalues>
+      </edge>
+      <edge source="Peasant_Stockholder" target="Danielnrg" id="11">
+        <attvalues>
+          <attvalue for="1" value="0.9782330989837646" />
+        </attvalues>
+      </edge>
+      <edge source="hopopo" target="newnemo" id="12">
+        <attvalues>
+          <attvalue for="1" value="0.9603496193885803" />
+        </attvalues>
+      </edge>
+      <edge source="hopopo" target="LuvKrahft" id="13">
+        <attvalues>
+          <attvalue for="1" value="0.9915391802787781" />
+        </attvalues>
+      </edge>
+      <edge source="LudovicoSpecs" target="Picture-unrelated" id="14">
+        <attvalues>
+          <attvalue for="1" value="0.9986566305160522" />
+        </attvalues>
+      </edge>
+      <edge source="LudovicoSpecs" target="newnemo" id="15">
+        <attvalues>
+          <attvalue for="1" value="0.9828420281410217" />
+        </attvalues>
+      </edge>
+      <edge source="LudovicoSpecs" target="ReallyJustTheFacts" id="16">
+        <attvalues>
+          <attvalue for="1" value="0.9939082860946655" />
+        </attvalues>
+      </edge>
+      <edge source="LieutJimDangle" target="HauntingJackfruit" id="17">
+        <attvalues>
+          <attvalue for="1" value="0.9940569400787354" />
+        </attvalues>
+      </edge>
+      <edge source="LieutJimDangle" target="dread_beard" id="18">
+        <attvalues>
+          <attvalue for="1" value="0.8965485095977783" />
+        </attvalues>
+      </edge>
+      <edge source="GDPisnotsustainable" target="newnemo" id="19">
+        <attvalues>
+          <attvalue for="1" value="0.9986684322357178" />
+        </attvalues>
+      </edge>
+      <edge source="GDPisnotsustainable" target="Ok-Flamingo-1499" id="20">
+        <attvalues>
+          <attvalue for="1" value="0.9903475046157837" />
+        </attvalues>
+      </edge>
+      <edge source="Teanaway99" target="Sharp_Literature_739" id="21">
+        <attvalues>
+          <attvalue for="1" value="0.999575674533844" />
+        </attvalues>
+      </edge>
+      <edge source="Teanaway99" target="southpawFA" id="22">
+        <attvalues>
+          <attvalue for="1" value="0.9986974596977234" />
+        </attvalues>
+      </edge>
+      <edge source="Hot-Bint" target="FFFFFM" id="23">
+        <attvalues>
+          <attvalue for="1" value="0.9947832226753235" />
+        </attvalues>
+      </edge>
+      <edge source="AceCombat9519" target="WhoIsJolyonWest" id="24">
+        <attvalues>
+          <attvalue for="1" value="0.9914330244064331" />
+        </attvalues>
+      </edge>
+      <edge source="AceCombat9519" target="Scarlettail" id="25">
+        <attvalues>
+          <attvalue for="1" value="0.9995597004890442" />
+        </attvalues>
+      </edge>
+      <edge source="AceCombat9519" target="Beckles28nz" id="26">
+        <attvalues>
+          <attvalue for="1" value="0.9516372084617615" />
+        </attvalues>
+      </edge>
+      <edge source="AceCombat9519" target="hammadurb" id="27">
+        <attvalues>
+          <attvalue for="1" value="0.9883987307548523" />
+        </attvalues>
+      </edge>
+      <edge source="AceCombat9519" target="newnemo" id="28">
+        <attvalues>
+          <attvalue for="1" value="0.9989768266677856" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
