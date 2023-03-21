@@ -1,6 +1,8 @@
 MAIN TASKS
- - do bigger scrapes, we need more posts and comments in general
-	- scrape function made, just need to actually do the scrapes
+ - improve scrapes
+	- ensure getting comments sorted by top
+	- nan in tarkov, figure out why and fix
+	- speed up scrapes by doing more posts, 100 comments?
 
 - network changes to make in new_approach notebook:
 	- include only users that have commented on at least 1 other persons post?
@@ -8,6 +10,17 @@ MAIN TASKS
 	- inspect node and edge values
 
  - try running michele algorithm
+	- read into paper
+	- algorithm
+	- eventually expand micheles measure to use sentiment
+
+ - (later) investigate two different things
+	- different subreddits
+	- same subreddit at different times
+
+ - paper writing
+	- Think about consequences of our data collection
+		- How does doing posts and comments by top affect our data?
 
  - investigate post embeddings by visualizing and seeing if users posting similar topics are in close proximity
 	- do they make sense?
