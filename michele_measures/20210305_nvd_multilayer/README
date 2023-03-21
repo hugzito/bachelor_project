@@ -1,0 +1,47 @@
+This archive contains the data and code to replicate the results for the paper: "Generalized Euclidean Measure to Estimate Distances on Multilayer Networks"
+
+The "implementation" folder contains a python library with an implementation of most NVD algorithms. Put it in your Python path or in a folder where your scripts can access it to use it. You can replicate the results of the paper by leaving it in its current folder and running the experiment scripts without modifying their paths. For instance, if you put network_distance.py in you path, the following minimal script will work, assuming you have an "edges" and a "couplings" file in the correcte format (and that nodes 0 and 1 exist for the src and trg input dictionaries):
+
+import networkx as nx
+import network_distance as nd
+
+G = nx.read_edgelist("edges")
+
+with open("couplings", 'r') as f:
+   couplings = set([tuple(line.strip().split('\t')) for line in f])
+
+src = {0: 1}
+trg = {1: 1}
+
+dist = nd.ge(src, trg, G, multilayer = True, couplings = couplings)
+
+The "data" folder contains the datasets used in the paper.
+   - Each dataset corresponds to two files: an "_edges" file and a "_couplings" file. The first contains the intra-layer connections, while the second contains the inter-layer couplings.
+   - The "_edges" files have three tab-separated columns: node1, node2, layer. Each line tells you that node1 is connected to node2 in the layer.
+   - The "_couplings" files contain one line per node identity. All nodes in the same line are assumed to correspond to the same identity and thus are coupled to each other.
+
+Each "sec_" folder contains the code to replicate the results from the corresponding section of the paper.
+   - "sec_5_2": Both scripts have no input data nor parameters. Simply run them and they will produce output files.
+      - "sec_5_2_1.py":
+         - Output: is tab-separated, 7 columns. Column #1 is the number of layers between origin and destination. Columns #2-7 report the NVD for: MLGE, MLEMD, MLGFT, GE, EMD, GFT, repsectively.
+      - "sec_5_2_2.py":
+         - Output: is tab-separated, 7 columns. Column #1 is the strength of inter-layer couplings. Columns #2-7 report the NVD for: MLGE, MLEMD, MLGFT, GE, EMD, GFT, repsectively.
+   - "sec_5_3":
+      - All python scripts require one command line input: the name of the input network (possible values: aarhus, copenhagen, egosm, euair, ira, physics).
+      - All python scripts output a tab-separated file with 9 columns: beta value, MLGE, GE, MLEMD, EMD, MLGFT, GFT, mlcount, and count. They are the inputs for the R scripts.
+      - All R scripts require the corresponding part1.py script to run. They print the RMAED values for MLGE, MLEMD, MLGFT, GE, EMD, GFT, in this order.
+      - NOTE: the python scripts take a while to run. It is advised to run them in parallel.
+   - "sec_5_4": All scripts have no input data nor parameters. Simply run them and they will produce output files.
+      - "sec_5_4_1.py" to "sec_5_4_3.py": 7 tab-separated columns. Column #1 is the dimension of the input we're increasing, then the average and standad deviation of 10 runs of MLGE, MLEMD, and MLGFT.
+      - "sec_5_4_4.py": The runtime of each method for 1 and for 1000 NVDs on the same network.
+   - "sec_5_5":
+      - "01_delta_l.py":
+         - Takes as input the layer you want to remove from the eu_air network to calculate the distance. Pass "orig" if you want to keep all layers in the network.
+         - Outputs a layer_id.csv with six tab-separate columns: country1, country2, removed layer, MLGE NVD distance between country1 and country2, number of edges and nodes in the network.
+      - "02_table_5.py":
+         - Requires the output of the previous script as input and outputs two tab-separated files.
+         - "layer_distance.csv" reports the average country pairwise MLGE distance for each removed layer in the network. The rows with the highest five values are included in Table 5 in the paper.
+         - "layer_country_distance.csv"  reports the average MLGE distance using one country as an origin and removing one layer of the network in turns.
+         - The former provides the ranking of the airline in the third column of Talbe 6 in the paper; the latter provides the fourth column in the same table.
+      - "03_layer_centralization.py": calculates the centralization values for all layers in the network, and stores them in a tab-separated file together with the output of the previous script.
+      - "04_alternative_explanations.r": prints the result of simple regressions explaining the observed MLGE distances with simpler networm statistics from the previous script.
