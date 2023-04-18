@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="attr" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Sharp_Literature_739" />
+    <node id="Bluerecyclecan" />
+    <node id="dude_x" />
+    <node id="cool_name52" />
+    <node id="theindependentonline" />
+    <node id="GDPisnotsustainable" />
+    <node id="UWCG" />
+    <node id="newnemo" />
+    <node id="southpawFA" />
+    <node id="washingtonpost" />
+    <node id="chagall1968" />
+    <node id="ReallyJustTheFacts" />
+    <node id="WhoIsJolyonWest" />
+    <node id="Fr1sk3r" />
+    <node id="CapitalCourse" />
+    <node id="semaphore-1842" />
+    <node id="koavf" />
+    <node id="everlovingkindness" />
+    <node id="TalcMine" />
+    <node id="Hot-Bint" />
+    <node id="Gari_305" />
+    <node id="A_Queff_In_Time" />
+    <node id="jonfla" />
+    <node id="Beckles28nz" />
+    <node id="cwhmoney555" />
+    <node id="LuvKrahft" />
+    <node id="bildo72" />
+    <node id="AreYouPurple" />
+    <node id="Picture-unrelated" />
+    <node id="Ok-Flamingo-1499" />
+    <node id="Ozymandias_a" />
+    <node id="e-r_bridge" />
+    <node id="vpuetf" />
+    <node id="myTchondria" />
+    <node id="CrackHeadRodeo" />
+    <node id="J_ablo" />
+    <node id="Orthodoxdevilworship" />
+    <node id="Pemulis" />
+    <node id="FFFFFM" />
+    <node id="LieutJimDangle" />
+    <node id="ladyem8" />
+    <node id="joyfullypresent" />
+    <node id="boregon" />
+    <node id="CBSnews" />
+    <node id="thinkB4WeSpeak" />
+    <node id="Teanaway99" />
+    <node id="BelleAriel" />
+    <node id="AceCombat9519" />
+    <node id="slaysia" />
+    <node id="HauntingJackfruit" />
+    <node id="Blue_Gamer18" />
+    <node id="mdj1359" />
+    <node id="likelazarus" />
+    <node id="CordAlex1996" />
+    <node id="sailorbrendan" />
+    <node id="hammadurb" />
+    <node id="bin10pac" />
+    <node id="ScoMoTrudeauApricot" />
+    <node id="pea_nix" />
+    <node id="dread_beard" />
+    <node id="Scarlettail" />
+    <node id="Darzanak" />
+    <node id="KC_8580" />
+    <node id="modooff" />
+    <node id="JackFourj4" />
+    <node id="MortWellian" />
+    <node id="LudovicoSpecs" />
+    <node id="Peasant_Stockholder" />
+    <node id="hopopo" />
+    <node id="Danielnrg" />
+    <node id="thenewrepublic" />
+    <node id="ChimeraMistake" />
+    <edge source="Sharp_Literature_739" target="Sharp_Literature_739">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="Sharp_Literature_739" target="Teanaway99">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="dude_x" target="bildo72">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="dude_x" target="Scarlettail">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="theindependentonline" target="theindependentonline">
+      <data key="d0">POSITIVE</data>
+    </edge>
+    <edge source="GDPisnotsustainable" target="newnemo">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="GDPisnotsustainable" target="Ok-Flamingo-1499">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="UWCG" target="UWCG">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="newnemo" target="newnemo">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="newnemo" target="hopopo">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="newnemo" target="slaysia">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="newnemo" target="LudovicoSpecs">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="newnemo" target="e-r_bridge">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="newnemo" target="AceCombat9519">
+      <data key="d0">POSITIVE</data>
+    </edge>
+    <edge source="southpawFA" target="southpawFA">
+      <data key="d0">POSITIVE</data>
+    </edge>
+    <edge source="southpawFA" target="Teanaway99">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="washingtonpost" target="washingtonpost">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="ReallyJustTheFacts" target="ReallyJustTheFacts">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="ReallyJustTheFacts" target="LudovicoSpecs">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="WhoIsJolyonWest" target="AceCombat9519">
+      <data key="d0">POSITIVE</data>
+    </edge>
+    <edge source="semaphore-1842" target="semaphore-1842">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="everlovingkindness" target="everlovingkindness">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="Hot-Bint" target="FFFFFM">
+      <data key="d0">POSITIVE</data>
+    </edge>
+    <edge source="Beckles28nz" target="Beckles28nz">
+      <data key="d0">POSITIVE</data>
+    </edge>
+    <edge source="Beckles28nz" target="AceCombat9519">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="LuvKrahft" target="hopopo">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="LuvKrahft" target="boregon">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="LuvKrahft" target="modooff">
+      <data key="d0">POSITIVE</data>
+    </edge>
+    <edge source="LuvKrahft" target="CrackHeadRodeo">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="LuvKrahft" target="Darzanak">
+      <data key="d0">POSITIVE</data>
+    </edge>
+    <edge source="LuvKrahft" target="MortWellian">
+      <data key="d0">POSITIVE</data>
+    </edge>
+    <edge source="bildo72" target="bildo72">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="Picture-unrelated" target="Picture-unrelated">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="Picture-unrelated" target="LudovicoSpecs">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="Ozymandias_a" target="Ozymandias_a">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="vpuetf" target="vpuetf">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="myTchondria" target="myTchondria">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="J_ablo" target="Darzanak">
+      <data key="d0">POSITIVE</data>
+    </edge>
+    <edge source="LieutJimDangle" target="HauntingJackfruit">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="LieutJimDangle" target="dread_beard">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="ladyem8" target="Scarlettail">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="joyfullypresent" target="joyfullypresent">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="CBSnews" target="CBSnews">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="AceCombat9519" target="Scarlettail">
+      <data key="d0">POSITIVE</data>
+    </edge>
+    <edge source="AceCombat9519" target="hammadurb">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="dread_beard" target="dread_beard">
+      <data key="d0">POSITIVE</data>
+    </edge>
+    <edge source="JackFourj4" target="JackFourj4">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="MortWellian" target="MortWellian">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="Peasant_Stockholder" target="Danielnrg">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="Peasant_Stockholder" target="Peasant_Stockholder">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="Danielnrg" target="Danielnrg">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+    <edge source="thenewrepublic" target="thenewrepublic">
+      <data key="d0">NEGATIVE</data>
+    </edge>
+  </graph>
+</graphml>

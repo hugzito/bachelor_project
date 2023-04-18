@@ -118,3 +118,14 @@ def driver(subreddit, path):
     polarization = correlation(node_val_dict, ideology_distance, G_line, Q_line)
 
     return polarization
+
+
+def driver_g(G):
+    '''Given a subreddit name and a path to where networks are stored, uses above function'''
+    G_line = line_graph(G)
+    node_val_dict = get_node_vals(G, G_line)
+    ideology_distance = get_ideology_distance(G, G_line)
+    Q_line = _resistance(G_line)
+    polarization = correlation(node_val_dict, ideology_distance, G_line, Q_line)
+
+    return polarization
