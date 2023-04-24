@@ -9,7 +9,7 @@ sys.path.append('../')
 from michele_measures.ge_polarization.modules.ps import _ge_Q, ge
 from michele_measures.network_distance import _resistance, correlation
 
-# michele polarization method
+### michele polarization method
 
 def clean(G):
     G = G.to_undirected()
