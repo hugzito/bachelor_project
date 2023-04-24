@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
   <meta lastmodifieddate="2023-04-24">
-    <creator>NetworkX 2.8.4</creator>
+    <creator>NetworkX 2.8.8</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
     <attributes mode="static" class="edge">
@@ -9,597 +9,597 @@
       <attribute id="2" title="sign" type="long" />
     </attributes>
     <attributes mode="static" class="node">
-      <attribute id="0" title="polarity" type="long" />
+      <attribute id="0" title="polarity" type="float" />
     </attributes>
     <nodes>
       <node id="Correct-Echo9533" label="Correct-Echo9533">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="-0.27215442300402626" />
         </attvalues>
       </node>
       <node id="LawInevitable2213" label="LawInevitable2213">
         <attvalues>
-          <attvalue for="0" value="12" />
+          <attvalue for="0" value="12.70058760144749" />
         </attvalues>
       </node>
       <node id="YouStopLying" label="YouStopLying">
         <attvalues>
-          <attvalue for="0" value="-1" />
+          <attvalue for="0" value="-1.7467475969406092" />
         </attvalues>
       </node>
       <node id="AgentEndive" label="AgentEndive">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="2.38645755606907" />
         </attvalues>
       </node>
       <node id="DeusBex" label="DeusBex">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.183808399362896" />
         </attvalues>
       </node>
       <node id="lorilightning79" label="lorilightning79">
         <attvalues>
-          <attvalue for="0" value="-3" />
+          <attvalue for="0" value="-3.0257654817904625" />
         </attvalues>
       </node>
       <node id="LibertyFidelityTruth" label="LibertyFidelityTruth">
         <attvalues>
-          <attvalue for="0" value="-1" />
+          <attvalue for="0" value="-1.1349607076462136" />
         </attvalues>
       </node>
       <node id="CrJ418" label="CrJ418">
         <attvalues>
-          <attvalue for="0" value="-2" />
+          <attvalue for="0" value="-2.8764763620051177" />
         </attvalues>
       </node>
       <node id="rhino910" label="rhino910">
         <attvalues>
-          <attvalue for="0" value="-6" />
+          <attvalue for="0" value="-6.213177438115695" />
         </attvalues>
       </node>
       <node id="MixPuzzleheaded4991" label="MixPuzzleheaded4991">
         <attvalues>
-          <attvalue for="0" value="-3" />
+          <attvalue for="0" value="-3.1250169494752207" />
         </attvalues>
       </node>
       <node id="Minimac1029" label="Minimac1029">
         <attvalues>
-          <attvalue for="0" value="14" />
+          <attvalue for="0" value="14.079905684824356" />
         </attvalues>
       </node>
       <node id="Lotus532" label="Lotus532">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="0.19224298399317324" />
         </attvalues>
       </node>
       <node id="Free_Swimming" label="Free_Swimming">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.870096331952156" />
         </attvalues>
       </node>
       <node id="swazal" label="swazal">
         <attvalues>
-          <attvalue for="0" value="12" />
+          <attvalue for="0" value="12.023059038647691" />
         </attvalues>
       </node>
       <node id="Hishui92" label="Hishui92">
         <attvalues>
-          <attvalue for="0" value="5" />
+          <attvalue for="0" value="5.356753844900071" />
         </attvalues>
       </node>
       <node id="rizzlenizzle" label="rizzlenizzle">
         <attvalues>
-          <attvalue for="0" value="10" />
+          <attvalue for="0" value="10.882958593018184" />
         </attvalues>
       </node>
       <node id="Randomlynumbered" label="Randomlynumbered">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.793331639778127" />
         </attvalues>
       </node>
       <node id="1000000students" label="1000000students">
         <attvalues>
-          <attvalue for="0" value="-4" />
+          <attvalue for="0" value="-4.014561665622625" />
         </attvalues>
       </node>
       <node id="callycumla" label="callycumla">
         <attvalues>
-          <attvalue for="0" value="4" />
+          <attvalue for="0" value="4.6346358210451895" />
         </attvalues>
       </node>
       <node id="wdcmsnbcgay" label="wdcmsnbcgay">
         <attvalues>
-          <attvalue for="0" value="-2" />
+          <attvalue for="0" value="-2.7218223412190277" />
         </attvalues>
       </node>
       <node id="audiomuse1" label="audiomuse1">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.576796315132947" />
         </attvalues>
       </node>
       <node id="Conjobbed" label="Conjobbed">
         <attvalues>
-          <attvalue for="0" value="-4" />
+          <attvalue for="0" value="-4.931370441627228" />
         </attvalues>
       </node>
       <node id="walter1950" label="walter1950">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.686265452049165" />
         </attvalues>
       </node>
       <node id="Gigglemind" label="Gigglemind">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="-0.649554753482339" />
         </attvalues>
       </node>
       <node id="adickfish" label="adickfish">
         <attvalues>
-          <attvalue for="0" value="4" />
+          <attvalue for="0" value="4.067627665544833" />
         </attvalues>
       </node>
       <node id="jonfla" label="jonfla">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.831583849888062" />
         </attvalues>
       </node>
       <node id="politicalthrow99" label="politicalthrow99">
         <attvalues>
-          <attvalue for="0" value="-2" />
+          <attvalue for="0" value="-2.5444123531493394" />
         </attvalues>
       </node>
       <node id="InbornRecourse" label="InbornRecourse">
         <attvalues>
-          <attvalue for="0" value="14" />
+          <attvalue for="0" value="14.941774980117142" />
         </attvalues>
       </node>
       <node id="MsSeraphim" label="MsSeraphim">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="2.552894882425738" />
         </attvalues>
       </node>
       <node id="Souled_Out" label="Souled_Out">
         <attvalues>
-          <attvalue for="0" value="-4" />
+          <attvalue for="0" value="-4.735921471488347" />
         </attvalues>
       </node>
       <node id="canonbutterfly" label="canonbutterfly">
         <attvalues>
-          <attvalue for="0" value="5" />
+          <attvalue for="0" value="5.907334264996894" />
         </attvalues>
       </node>
       <node id="SuitableNegotiation5" label="SuitableNegotiation5">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="0.39105827853906094" />
         </attvalues>
       </node>
       <node id="HeHateMe337" label="HeHateMe337">
         <attvalues>
-          <attvalue for="0" value="-3" />
+          <attvalue for="0" value="-3.9008540961387106" />
         </attvalues>
       </node>
       <node id="ErockLobster" label="ErockLobster">
         <attvalues>
-          <attvalue for="0" value="4" />
+          <attvalue for="0" value="4.76084354699025" />
         </attvalues>
       </node>
       <node id="zoeygirl69" label="zoeygirl69">
         <attvalues>
-          <attvalue for="0" value="10" />
+          <attvalue for="0" value="10.675231307809373" />
         </attvalues>
       </node>
       <node id="Ivebeendoingurmom" label="Ivebeendoingurmom">
         <attvalues>
-          <attvalue for="0" value="-4" />
+          <attvalue for="0" value="-4.444033240022323" />
         </attvalues>
       </node>
       <node id="er1026" label="er1026">
         <attvalues>
-          <attvalue for="0" value="-3" />
+          <attvalue for="0" value="-3.878064723362121" />
         </attvalues>
       </node>
       <node id="scienceofsin" label="scienceofsin">
         <attvalues>
-          <attvalue for="0" value="3" />
+          <attvalue for="0" value="3.477115565577191" />
         </attvalues>
       </node>
       <node id="CQU617" label="CQU617">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="0.16291536919562274" />
         </attvalues>
       </node>
       <node id="agjrpsl" label="agjrpsl">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.334918404096785" />
         </attvalues>
       </node>
       <node id="Monsur_Ausuhnom" label="Monsur_Ausuhnom">
         <attvalues>
-          <attvalue for="0" value="11" />
+          <attvalue for="0" value="11.71949627959456" />
         </attvalues>
       </node>
       <node id="giantyetifeet" label="giantyetifeet">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.839490385521952" />
         </attvalues>
       </node>
       <node id="AceCombat9519" label="AceCombat9519">
         <attvalues>
-          <attvalue for="0" value="-4" />
+          <attvalue for="0" value="-4.6855264097449965" />
         </attvalues>
       </node>
       <node id="IAmAccutane" label="IAmAccutane">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="0.6974900640079087" />
         </attvalues>
       </node>
       <node id="ClitYeastWood1337" label="ClitYeastWood1337">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.477220274030148" />
         </attvalues>
       </node>
       <node id="JimCripe" label="JimCripe">
         <attvalues>
-          <attvalue for="0" value="-3" />
+          <attvalue for="0" value="-3.0958399437570168" />
         </attvalues>
       </node>
       <node id="CuPride" label="CuPride">
         <attvalues>
-          <attvalue for="0" value="-6" />
+          <attvalue for="0" value="-6.624756445932821" />
         </attvalues>
       </node>
       <node id="Baba10x" label="Baba10x">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="2.496563201314704" />
         </attvalues>
       </node>
       <node id="Teacher-Investor" label="Teacher-Investor">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.725977805468289" />
         </attvalues>
       </node>
       <node id="sdf_cardinal" label="sdf_cardinal">
         <attvalues>
-          <attvalue for="0" value="-4" />
+          <attvalue for="0" value="-4.670460581694855" />
         </attvalues>
       </node>
       <node id="Delicious-Day-3332" label="Delicious-Day-3332">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.3737728575603745" />
         </attvalues>
       </node>
       <node id="Newgripper1221" label="Newgripper1221">
         <attvalues>
-          <attvalue for="0" value="-1" />
+          <attvalue for="0" value="-1.0542945213651875" />
         </attvalues>
       </node>
       <node id="PacificSun2020" label="PacificSun2020">
         <attvalues>
-          <attvalue for="0" value="-3" />
+          <attvalue for="0" value="-3.8060247824243914" />
         </attvalues>
       </node>
       <node id="Equivalent-Ice-7274" label="Equivalent-Ice-7274">
         <attvalues>
-          <attvalue for="0" value="-4" />
+          <attvalue for="0" value="-4.782784651903139" />
         </attvalues>
       </node>
       <node id="maximan2005" label="maximan2005">
         <attvalues>
-          <attvalue for="0" value="-1" />
+          <attvalue for="0" value="-1.0183439445584526" />
         </attvalues>
       </node>
       <node id="JoJo-Bizarre-1997" label="JoJo-Bizarre-1997">
         <attvalues>
-          <attvalue for="0" value="-2" />
+          <attvalue for="0" value="-2.6461151605596256" />
         </attvalues>
       </node>
       <node id="Carlyz37" label="Carlyz37">
         <attvalues>
-          <attvalue for="0" value="9" />
+          <attvalue for="0" value="9.816533865986251" />
         </attvalues>
       </node>
       <node id="onewittyguy" label="onewittyguy">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="2.6835031946746963" />
         </attvalues>
       </node>
       <node id="HercegBosan" label="HercegBosan">
         <attvalues>
-          <attvalue for="0" value="-2" />
+          <attvalue for="0" value="-2.9251761448995883" />
         </attvalues>
       </node>
       <node id="Darzanak" label="Darzanak">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="1.8575982147673533" />
         </attvalues>
       </node>
       <node id="Smelly-taint" label="Smelly-taint">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="1.7296410097935866" />
         </attvalues>
       </node>
       <node id="BlankVerse" label="BlankVerse">
         <attvalues>
-          <attvalue for="0" value="-6" />
+          <attvalue for="0" value="-6.292001368072209" />
         </attvalues>
       </node>
       <node id="Yuri_Ligotme" label="Yuri_Ligotme">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="0.45938165049515794" />
         </attvalues>
       </node>
       <node id="realplayer16" label="realplayer16">
         <attvalues>
-          <attvalue for="0" value="-2" />
+          <attvalue for="0" value="-2.4639577150841983" />
         </attvalues>
       </node>
       <node id="ultimatepro-grammer" label="ultimatepro-grammer">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="1.6681326309886044" />
         </attvalues>
       </node>
       <node id="jsatz" label="jsatz">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.138736636974725" />
         </attvalues>
       </node>
       <node id="wenchette" label="wenchette">
         <attvalues>
-          <attvalue for="0" value="-7" />
+          <attvalue for="0" value="-7.453521675317882" />
         </attvalues>
       </node>
       <node id="JustMyOpinionz" label="JustMyOpinionz">
         <attvalues>
-          <attvalue for="0" value="-7" />
+          <attvalue for="0" value="-7.131586356799068" />
         </attvalues>
       </node>
       <node id="FibroMom232" label="FibroMom232">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="0.5042542025632927" />
         </attvalues>
       </node>
       <node id="NeatlyCritical" label="NeatlyCritical">
         <attvalues>
-          <attvalue for="0" value="-1" />
+          <attvalue for="0" value="-1.3933410217400062" />
         </attvalues>
       </node>
       <node id="russellrlf" label="russellrlf">
         <attvalues>
-          <attvalue for="0" value="-2" />
+          <attvalue for="0" value="-2.6347420051623627" />
         </attvalues>
       </node>
       <node id="Ssider69" label="Ssider69">
         <attvalues>
-          <attvalue for="0" value="-1" />
+          <attvalue for="0" value="-1.0758111294674475" />
         </attvalues>
       </node>
       <node id="justin_quinnn" label="justin_quinnn">
         <attvalues>
-          <attvalue for="0" value="-4" />
+          <attvalue for="0" value="-4.794586823498118" />
         </attvalues>
       </node>
       <node id="lumpkin2013" label="lumpkin2013">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="0.3378179733927778" />
         </attvalues>
       </node>
       <node id="meanjeanthemachine" label="meanjeanthemachine">
         <attvalues>
-          <attvalue for="0" value="-2" />
+          <attvalue for="0" value="-2.5174790654339785" />
         </attvalues>
       </node>
       <node id="BirdButt88" label="BirdButt88">
         <attvalues>
-          <attvalue for="0" value="13" />
+          <attvalue for="0" value="13.186097853693644" />
         </attvalues>
       </node>
       <node id="shallah" label="shallah">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.860497843876175" />
         </attvalues>
       </node>
       <node id="TechyGuyInIL" label="TechyGuyInIL">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.0872929795411945" />
         </attvalues>
       </node>
       <node id="Hybrazil" label="Hybrazil">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.60300088803036" />
         </attvalues>
       </node>
       <node id="littleoldlady71" label="littleoldlady71">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="-0.39648594310444796" />
         </attvalues>
       </node>
       <node id="Travismatthew08" label="Travismatthew08">
         <attvalues>
-          <attvalue for="0" value="-5" />
+          <attvalue for="0" value="-5.222065909215965" />
         </attvalues>
       </node>
       <node id="Anticipator1234" label="Anticipator1234">
         <attvalues>
-          <attvalue for="0" value="-1" />
+          <attvalue for="0" value="-1.1917517994066393" />
         </attvalues>
       </node>
       <node id="Alaina_TheGoddess" label="Alaina_TheGoddess">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="1.1780024548339547" />
         </attvalues>
       </node>
       <node id="Cosmo_Cloudy" label="Cosmo_Cloudy">
         <attvalues>
-          <attvalue for="0" value="7" />
+          <attvalue for="0" value="7.9425661102154965" />
         </attvalues>
       </node>
       <node id="therealDrA" label="therealDrA">
         <attvalues>
-          <attvalue for="0" value="-1" />
+          <attvalue for="0" value="-1.939074803415583" />
         </attvalues>
       </node>
       <node id="smtreger" label="smtreger">
         <attvalues>
-          <attvalue for="0" value="7" />
+          <attvalue for="0" value="7.827872769596354" />
         </attvalues>
       </node>
       <node id="eatingganesha" label="eatingganesha">
         <attvalues>
-          <attvalue for="0" value="3" />
+          <attvalue for="0" value="3.3521992784525843" />
         </attvalues>
       </node>
       <node id="ellistonvu" label="ellistonvu">
         <attvalues>
-          <attvalue for="0" value="-3" />
+          <attvalue for="0" value="-3.446451707493545" />
         </attvalues>
       </node>
       <node id="Cookie_Cutter_Cook" label="Cookie_Cutter_Cook">
         <attvalues>
-          <attvalue for="0" value="-3" />
+          <attvalue for="0" value="-3.383333649243483" />
         </attvalues>
       </node>
       <node id="Raspberries-Are-Evil" label="Raspberries-Are-Evil">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="1.325053068654018" />
         </attvalues>
       </node>
       <node id="NickHancock" label="NickHancock">
         <attvalues>
-          <attvalue for="0" value="-3" />
+          <attvalue for="0" value="-3.5664643238609353" />
         </attvalues>
       </node>
       <node id="Red_Rabbit_Blue" label="Red_Rabbit_Blue">
         <attvalues>
-          <attvalue for="0" value="4" />
+          <attvalue for="0" value="4.964024135530885" />
         </attvalues>
       </node>
       <node id="ImaginationFree6807" label="ImaginationFree6807">
         <attvalues>
-          <attvalue for="0" value="-3" />
+          <attvalue for="0" value="-3.527487164286949" />
         </attvalues>
       </node>
       <node id="lakuma" label="lakuma">
         <attvalues>
-          <attvalue for="0" value="-2" />
+          <attvalue for="0" value="-2.347326817043547" />
         </attvalues>
       </node>
       <node id="ImWezlsquez" label="ImWezlsquez">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="0.5668181692335513" />
         </attvalues>
       </node>
       <node id="Peteostro" label="Peteostro">
         <attvalues>
-          <attvalue for="0" value="-4" />
+          <attvalue for="0" value="-4.409956731433808" />
         </attvalues>
       </node>
       <node id="graemeknows" label="graemeknows">
         <attvalues>
-          <attvalue for="0" value="10" />
+          <attvalue for="0" value="10.578800088975745" />
         </attvalues>
       </node>
       <node id="Callmeoneofakind" label="Callmeoneofakind">
         <attvalues>
-          <attvalue for="0" value="3" />
+          <attvalue for="0" value="3.56234086207863" />
         </attvalues>
       </node>
       <node id="semaphone-1842" label="semaphone-1842">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="-0.2842993423429099" />
         </attvalues>
       </node>
       <node id="Alternative_Gaee" label="Alternative_Gaee">
         <attvalues>
-          <attvalue for="0" value="-1" />
+          <attvalue for="0" value="-1.6040195074091383" />
         </attvalues>
       </node>
       <node id="Phycopathic" label="Phycopathic">
         <attvalues>
-          <attvalue for="0" value="-2" />
+          <attvalue for="0" value="-2.201016886099271" />
         </attvalues>
       </node>
       <node id="Zandra_the_Great" label="Zandra_the_Great">
         <attvalues>
-          <attvalue for="0" value="8" />
+          <attvalue for="0" value="8.480372903220564" />
         </attvalues>
       </node>
       <node id="KeepCalmAndBaseball" label="KeepCalmAndBaseball">
         <attvalues>
-          <attvalue for="0" value="-4" />
+          <attvalue for="0" value="-4.726947795701969" />
         </attvalues>
       </node>
       <node id="nkaufman11" label="nkaufman11">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="2.9203825838562962" />
         </attvalues>
       </node>
       <node id="coffeespeaking" label="coffeespeaking">
         <attvalues>
-          <attvalue for="0" value="-3" />
+          <attvalue for="0" value="-3.488203353297671" />
         </attvalues>
       </node>
       <node id="blackforestham3789" label="blackforestham3789">
         <attvalues>
-          <attvalue for="0" value="5" />
+          <attvalue for="0" value="5.350049997659657" />
         </attvalues>
       </node>
       <node id="cm-1414" label="cm-1414">
         <attvalues>
-          <attvalue for="0" value="9" />
+          <attvalue for="0" value="9.386766100993832" />
         </attvalues>
       </node>
       <node id="FollowYourWeirdness" label="FollowYourWeirdness">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="-0.7507213513319454" />
         </attvalues>
       </node>
       <node id="Yabrassy" label="Yabrassy">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="1.0092467439670398" />
         </attvalues>
       </node>
       <node id="billywitt" label="billywitt">
         <attvalues>
-          <attvalue for="0" value="6" />
+          <attvalue for="0" value="6.613507350366542" />
         </attvalues>
       </node>
       <node id="Madagascan_meerkat" label="Madagascan_meerkat">
         <attvalues>
-          <attvalue for="0" value="-1" />
+          <attvalue for="0" value="-1.29322765361179" />
         </attvalues>
       </node>
       <node id="Karl_Racki" label="Karl_Racki">
         <attvalues>
-          <attvalue for="0" value="0" />
+          <attvalue for="0" value="0.791170921104758" />
         </attvalues>
       </node>
       <node id="redithotx3" label="redithotx3">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="2.1414406938409067" />
         </attvalues>
       </node>
       <node id="GougeM" label="GougeM">
         <attvalues>
-          <attvalue for="0" value="3" />
+          <attvalue for="0" value="3.727769819995682" />
         </attvalues>
       </node>
       <node id="Daddio209" label="Daddio209">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="2.1240475870759052" />
         </attvalues>
       </node>
       <node id="11thstalley" label="11thstalley">
         <attvalues>
-          <attvalue for="0" value="1" />
+          <attvalue for="0" value="1.860424446726435" />
         </attvalues>
       </node>
       <node id="YallerDawg" label="YallerDawg">
         <attvalues>
-          <attvalue for="0" value="4" />
+          <attvalue for="0" value="4.233507685362072" />
         </attvalues>
       </node>
       <node id="NotMrMusic" label="NotMrMusic">
         <attvalues>
-          <attvalue for="0" value="2" />
+          <attvalue for="0" value="2.156597695912942" />
         </attvalues>
       </node>
     </nodes>
@@ -618,7 +618,7 @@
       </edge>
       <edge source="LawInevitable2213" target="IAmAccutane" id="2">
         <attvalues>
-          <attvalue for="1" value="0.7982181906700134" />
+          <attvalue for="1" value="0.7982200384140015" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -636,7 +636,7 @@
       </edge>
       <edge source="YouStopLying" target="lorilightning79" id="5">
         <attvalues>
-          <attvalue for="1" value="0.824966549873352" />
+          <attvalue for="1" value="0.8249611854553223" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -672,7 +672,7 @@
       </edge>
       <edge source="AgentEndive" target="rizzlenizzle" id="11">
         <attvalues>
-          <attvalue for="1" value="0.9093716740608215" />
+          <attvalue for="1" value="0.909371554851532" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -690,13 +690,13 @@
       </edge>
       <edge source="AgentEndive" target="adickfish" id="14">
         <attvalues>
-          <attvalue for="1" value="0.9541359543800354" />
+          <attvalue for="1" value="0.9541358947753906" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="AgentEndive" target="Ivebeendoingurmom" id="15">
         <attvalues>
-          <attvalue for="1" value="0.9748808741569519" />
+          <attvalue for="1" value="0.9748807549476624" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -798,7 +798,7 @@
       </edge>
       <edge source="AgentEndive" target="TechyGuyInIL" id="32">
         <attvalues>
-          <attvalue for="1" value="0.980530858039856" />
+          <attvalue for="1" value="0.9805307388305664" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -834,13 +834,13 @@
       </edge>
       <edge source="DeusBex" target="jonfla" id="38">
         <attvalues>
-          <attvalue for="1" value="0.6113824248313904" />
+          <attvalue for="1" value="0.6113858819007874" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="lorilightning79" target="AgentEndive" id="39">
         <attvalues>
-          <attvalue for="1" value="0.9840609431266785" />
+          <attvalue for="1" value="0.984061062335968" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -864,13 +864,13 @@
       </edge>
       <edge source="lorilightning79" target="Conjobbed" id="43">
         <attvalues>
-          <attvalue for="1" value="0.9926804900169373" />
+          <attvalue for="1" value="0.9926806092262268" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="lorilightning79" target="Souled_Out" id="44">
         <attvalues>
-          <attvalue for="1" value="0.9657816886901855" />
+          <attvalue for="1" value="0.9657818078994751" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -882,13 +882,13 @@
       </edge>
       <edge source="lorilightning79" target="walter1950" id="46">
         <attvalues>
-          <attvalue for="1" value="0.9984467625617981" />
+          <attvalue for="1" value="0.9984466433525085" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="lorilightning79" target="DeusBex" id="47">
         <attvalues>
-          <attvalue for="1" value="0.9913085699081421" />
+          <attvalue for="1" value="0.9913086891174316" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -912,7 +912,7 @@
       </edge>
       <edge source="lorilightning79" target="wdcmsnbcgay" id="51">
         <attvalues>
-          <attvalue for="1" value="0.9785803556442261" />
+          <attvalue for="1" value="0.9785804748535156" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -954,7 +954,7 @@
       </edge>
       <edge source="CrJ418" target="audiomuse1" id="58">
         <attvalues>
-          <attvalue for="1" value="0.9742944240570068" />
+          <attvalue for="1" value="0.9742943644523621" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -984,13 +984,13 @@
       </edge>
       <edge source="CrJ418" target="wdcmsnbcgay" id="63">
         <attvalues>
-          <attvalue for="1" value="0.900135338306427" />
+          <attvalue for="1" value="0.9001365900039673" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="CrJ418" target="agjrpsl" id="64">
         <attvalues>
-          <attvalue for="1" value="0.6694755554199219" />
+          <attvalue for="1" value="0.6694770455360413" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -1026,7 +1026,7 @@
       </edge>
       <edge source="CrJ418" target="coffeespeaking" id="70">
         <attvalues>
-          <attvalue for="1" value="0.9434694051742554" />
+          <attvalue for="1" value="0.9434690475463867" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1038,7 +1038,7 @@
       </edge>
       <edge source="rhino910" target="wdcmsnbcgay" id="72">
         <attvalues>
-          <attvalue for="1" value="0.7406724095344543" />
+          <attvalue for="1" value="0.7406741976737976" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -1050,7 +1050,7 @@
       </edge>
       <edge source="Minimac1029" target="agjrpsl" id="74">
         <attvalues>
-          <attvalue for="1" value="0.987572431564331" />
+          <attvalue for="1" value="0.9875723123550415" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -1062,7 +1062,7 @@
       </edge>
       <edge source="Free_Swimming" target="DeusBex" id="76">
         <attvalues>
-          <attvalue for="1" value="0.7597622275352478" />
+          <attvalue for="1" value="0.7597629427909851" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -1074,13 +1074,13 @@
       </edge>
       <edge source="swazal" target="Conjobbed" id="78">
         <attvalues>
-          <attvalue for="1" value="0.9750072956085205" />
+          <attvalue for="1" value="0.975007176399231" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="swazal" target="Ivebeendoingurmom" id="79">
         <attvalues>
-          <attvalue for="1" value="0.9237068891525269" />
+          <attvalue for="1" value="0.9237071871757507" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1092,7 +1092,7 @@
       </edge>
       <edge source="Hishui92" target="CrJ418" id="81">
         <attvalues>
-          <attvalue for="1" value="0.9576019048690796" />
+          <attvalue for="1" value="0.9576022028923035" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1104,13 +1104,13 @@
       </edge>
       <edge source="Hishui92" target="jonfla" id="83">
         <attvalues>
-          <attvalue for="1" value="0.9465082287788391" />
+          <attvalue for="1" value="0.9465086460113525" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="1000000students" target="CuPride" id="84">
         <attvalues>
-          <attvalue for="1" value="0.9912064671516418" />
+          <attvalue for="1" value="0.9912065863609314" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1200,13 +1200,13 @@
       </edge>
       <edge source="Conjobbed" target="Yuri_Ligotme" id="99">
         <attvalues>
-          <attvalue for="1" value="0.735210657119751" />
+          <attvalue for="1" value="0.7352107167243958" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="Conjobbed" target="BirdButt88" id="100">
         <attvalues>
-          <attvalue for="1" value="0.9433271884918213" />
+          <attvalue for="1" value="0.9433278441429138" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -1272,7 +1272,7 @@
       </edge>
       <edge source="Conjobbed" target="coffeespeaking" id="111">
         <attvalues>
-          <attvalue for="1" value="0.5062682032585144" />
+          <attvalue for="1" value="0.5062689185142517" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -1290,7 +1290,7 @@
       </edge>
       <edge source="walter1950" target="LawInevitable2213" id="114">
         <attvalues>
-          <attvalue for="1" value="0.9627240300178528" />
+          <attvalue for="1" value="0.9627240896224976" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1344,7 +1344,7 @@
       </edge>
       <edge source="walter1950" target="IAmAccutane" id="123">
         <attvalues>
-          <attvalue for="1" value="0.9827888607978821" />
+          <attvalue for="1" value="0.9827887415885925" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -1356,7 +1356,7 @@
       </edge>
       <edge source="walter1950" target="Carlyz37" id="125">
         <attvalues>
-          <attvalue for="1" value="0.9923417568206787" />
+          <attvalue for="1" value="0.9923418760299683" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1368,7 +1368,7 @@
       </edge>
       <edge source="walter1950" target="CuPride" id="127">
         <attvalues>
-          <attvalue for="1" value="0.9862068891525269" />
+          <attvalue for="1" value="0.9862070083618164" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1464,25 +1464,25 @@
       </edge>
       <edge source="walter1950" target="Alternative_Gaee" id="143">
         <attvalues>
-          <attvalue for="1" value="0.9779906272888184" />
+          <attvalue for="1" value="0.9779905080795288" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="walter1950" target="Phycopathic" id="144">
         <attvalues>
-          <attvalue for="1" value="0.9762068390846252" />
+          <attvalue for="1" value="0.9762067198753357" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="walter1950" target="coffeespeaking" id="145">
         <attvalues>
-          <attvalue for="1" value="0.7828791737556458" />
+          <attvalue for="1" value="0.7828776836395264" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="walter1950" target="wdcmsnbcgay" id="146">
         <attvalues>
-          <attvalue for="1" value="0.8370094299316406" />
+          <attvalue for="1" value="0.837009072303772" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -1512,7 +1512,7 @@
       </edge>
       <edge source="politicalthrow99" target="1000000students" id="151">
         <attvalues>
-          <attvalue for="1" value="0.9766452312469482" />
+          <attvalue for="1" value="0.9766451120376587" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1566,13 +1566,13 @@
       </edge>
       <edge source="politicalthrow99" target="BlankVerse" id="160">
         <attvalues>
-          <attvalue for="1" value="0.9403561949729919" />
+          <attvalue for="1" value="0.9403563737869263" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="politicalthrow99" target="HeHateMe337" id="161">
         <attvalues>
-          <attvalue for="1" value="0.6059309840202332" />
+          <attvalue for="1" value="0.6059359312057495" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -1602,7 +1602,7 @@
       </edge>
       <edge source="politicalthrow99" target="wenchette" id="166">
         <attvalues>
-          <attvalue for="1" value="0.9183720946311951" />
+          <attvalue for="1" value="0.9183735847473145" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -1614,19 +1614,19 @@
       </edge>
       <edge source="politicalthrow99" target="ImaginationFree6807" id="168">
         <attvalues>
-          <attvalue for="1" value="0.9759185910224915" />
+          <attvalue for="1" value="0.9759184718132019" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="politicalthrow99" target="russellrlf" id="169">
         <attvalues>
-          <attvalue for="1" value="0.9032101631164551" />
+          <attvalue for="1" value="0.9032104015350342" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="Souled_Out" target="giantyetifeet" id="170">
         <attvalues>
-          <attvalue for="1" value="0.9751929640769958" />
+          <attvalue for="1" value="0.9751928448677063" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1686,7 +1686,7 @@
       </edge>
       <edge source="SuitableNegotiation5" target="IAmAccutane" id="180">
         <attvalues>
-          <attvalue for="1" value="0.644072949886322" />
+          <attvalue for="1" value="0.6440775990486145" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -1728,7 +1728,7 @@
       </edge>
       <edge source="SuitableNegotiation5" target="Delicious-Day-3332" id="187">
         <attvalues>
-          <attvalue for="1" value="0.9995899796485901" />
+          <attvalue for="1" value="0.9995898604393005" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1752,7 +1752,7 @@
       </edge>
       <edge source="Ivebeendoingurmom" target="PacificSun2020" id="191">
         <attvalues>
-          <attvalue for="1" value="0.9488877654075623" />
+          <attvalue for="1" value="0.9488876461982727" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1764,13 +1764,13 @@
       </edge>
       <edge source="Ivebeendoingurmom" target="JimCripe" id="193">
         <attvalues>
-          <attvalue for="1" value="0.5683249235153198" />
+          <attvalue for="1" value="0.5683155059814453" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="er1026" target="lorilightning79" id="194">
         <attvalues>
-          <attvalue for="1" value="0.9799308776855469" />
+          <attvalue for="1" value="0.9799309968948364" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1788,7 +1788,7 @@
       </edge>
       <edge source="er1026" target="jonfla" id="197">
         <attvalues>
-          <attvalue for="1" value="0.9644854068756104" />
+          <attvalue for="1" value="0.9644855260848999" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1800,19 +1800,19 @@
       </edge>
       <edge source="er1026" target="Ivebeendoingurmom" id="199">
         <attvalues>
-          <attvalue for="1" value="0.9668025374412537" />
+          <attvalue for="1" value="0.9668025970458984" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="er1026" target="smtreger" id="200">
         <attvalues>
-          <attvalue for="1" value="0.8277825713157654" />
+          <attvalue for="1" value="0.8277819156646729" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="er1026" target="justin_quinnn" id="201">
         <attvalues>
-          <attvalue for="1" value="0.9657054543495178" />
+          <attvalue for="1" value="0.9657055735588074" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1878,7 +1878,7 @@
       </edge>
       <edge source="agjrpsl" target="realplayer16" id="212">
         <attvalues>
-          <attvalue for="1" value="0.9718164801597595" />
+          <attvalue for="1" value="0.97181636095047" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1902,7 +1902,7 @@
       </edge>
       <edge source="agjrpsl" target="Randomlynumbered" id="216">
         <attvalues>
-          <attvalue for="1" value="0.9711802005767822" />
+          <attvalue for="1" value="0.9711803197860718" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1914,7 +1914,7 @@
       </edge>
       <edge source="AceCombat9519" target="YouStopLying" id="218">
         <attvalues>
-          <attvalue for="1" value="0.8653009533882141" />
+          <attvalue for="1" value="0.8653005957603455" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1944,13 +1944,13 @@
       </edge>
       <edge source="AceCombat9519" target="1000000students" id="223">
         <attvalues>
-          <attvalue for="1" value="0.9980916380882263" />
+          <attvalue for="1" value="0.9980917572975159" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="AceCombat9519" target="callycumla" id="224">
         <attvalues>
-          <attvalue for="1" value="0.9967781901359558" />
+          <attvalue for="1" value="0.9967783093452454" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -1962,7 +1962,7 @@
       </edge>
       <edge source="AceCombat9519" target="DeusBex" id="226">
         <attvalues>
-          <attvalue for="1" value="0.753439724445343" />
+          <attvalue for="1" value="0.7534400820732117" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2016,13 +2016,13 @@
       </edge>
       <edge source="JimCripe" target="Conjobbed" id="235">
         <attvalues>
-          <attvalue for="1" value="0.949807345867157" />
+          <attvalue for="1" value="0.9498074054718018" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="JimCripe" target="russellrlf" id="236">
         <attvalues>
-          <attvalue for="1" value="0.9441742897033691" />
+          <attvalue for="1" value="0.94417405128479" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2046,19 +2046,19 @@
       </edge>
       <edge source="CuPride" target="DeusBex" id="240">
         <attvalues>
-          <attvalue for="1" value="0.6899225115776062" />
+          <attvalue for="1" value="0.6899229288101196" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="CuPride" target="Newgripper1221" id="241">
         <attvalues>
-          <attvalue for="1" value="0.7252050638198853" />
+          <attvalue for="1" value="0.725204586982727" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="CuPride" target="onewittyguy" id="242">
         <attvalues>
-          <attvalue for="1" value="0.6667840480804443" />
+          <attvalue for="1" value="0.6667870283126831" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2076,7 +2076,7 @@
       </edge>
       <edge source="Baba10x" target="LibertyFidelityTruth" id="245">
         <attvalues>
-          <attvalue for="1" value="0.735940158367157" />
+          <attvalue for="1" value="0.7359399795532227" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2106,7 +2106,7 @@
       </edge>
       <edge source="Teacher-Investor" target="politicalthrow99" id="250">
         <attvalues>
-          <attvalue for="1" value="0.9983318448066711" />
+          <attvalue for="1" value="0.9983317255973816" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2148,7 +2148,7 @@
       </edge>
       <edge source="Delicious-Day-3332" target="DeusBex" id="257">
         <attvalues>
-          <attvalue for="1" value="0.9916650652885437" />
+          <attvalue for="1" value="0.9916649460792542" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2214,7 +2214,7 @@
       </edge>
       <edge source="Delicious-Day-3332" target="er1026" id="268">
         <attvalues>
-          <attvalue for="1" value="0.6576518416404724" />
+          <attvalue for="1" value="0.6576520204544067" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -2238,13 +2238,13 @@
       </edge>
       <edge source="Delicious-Day-3332" target="CuPride" id="272">
         <attvalues>
-          <attvalue for="1" value="0.9640784859657288" />
+          <attvalue for="1" value="0.9640782475471497" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="Delicious-Day-3332" target="Baba10x" id="273">
         <attvalues>
-          <attvalue for="1" value="0.543416440486908" />
+          <attvalue for="1" value="0.5434166789054871" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -2256,7 +2256,7 @@
       </edge>
       <edge source="Delicious-Day-3332" target="maximan2005" id="275">
         <attvalues>
-          <attvalue for="1" value="0.9893603324890137" />
+          <attvalue for="1" value="0.9893604516983032" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -2304,7 +2304,7 @@
       </edge>
       <edge source="Delicious-Day-3332" target="jsatz" id="283">
         <attvalues>
-          <attvalue for="1" value="0.535269021987915" />
+          <attvalue for="1" value="0.5352628231048584" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -2340,7 +2340,7 @@
       </edge>
       <edge source="Delicious-Day-3332" target="justin_quinnn" id="289">
         <attvalues>
-          <attvalue for="1" value="0.9963956475257874" />
+          <attvalue for="1" value="0.9963955283164978" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -2358,7 +2358,7 @@
       </edge>
       <edge source="Delicious-Day-3332" target="Hybrazil" id="292">
         <attvalues>
-          <attvalue for="1" value="0.9921427965164185" />
+          <attvalue for="1" value="0.9921426773071289" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2472,7 +2472,7 @@
       </edge>
       <edge source="onewittyguy" target="HeHateMe337" id="311">
         <attvalues>
-          <attvalue for="1" value="0.9893893599510193" />
+          <attvalue for="1" value="0.9893892407417297" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2490,7 +2490,7 @@
       </edge>
       <edge source="HercegBosan" target="ultimatepro-grammer" id="314">
         <attvalues>
-          <attvalue for="1" value="0.9617976546287537" />
+          <attvalue for="1" value="0.9617977738380432" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2514,7 +2514,7 @@
       </edge>
       <edge source="jsatz" target="Gigglemind" id="318">
         <attvalues>
-          <attvalue for="1" value="0.9395525455474854" />
+          <attvalue for="1" value="0.9395526647567749" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2526,7 +2526,7 @@
       </edge>
       <edge source="jsatz" target="Free_Swimming" id="320">
         <attvalues>
-          <attvalue for="1" value="0.9457656145095825" />
+          <attvalue for="1" value="0.9457657337188721" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2550,13 +2550,13 @@
       </edge>
       <edge source="wenchette" target="Baba10x" id="324">
         <attvalues>
-          <attvalue for="1" value="0.5767167210578918" />
+          <attvalue for="1" value="0.5767144560813904" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="wenchette" target="HeHateMe337" id="325">
         <attvalues>
-          <attvalue for="1" value="0.5767167210578918" />
+          <attvalue for="1" value="0.5767144560813904" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2568,13 +2568,13 @@
       </edge>
       <edge source="wenchette" target="PacificSun2020" id="327">
         <attvalues>
-          <attvalue for="1" value="0.5767167210578918" />
+          <attvalue for="1" value="0.5767144560813904" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="FibroMom232" target="DeusBex" id="328">
         <attvalues>
-          <attvalue for="1" value="0.7177413105964661" />
+          <attvalue for="1" value="0.7177438735961914" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2586,7 +2586,7 @@
       </edge>
       <edge source="FibroMom232" target="Cookie_Cutter_Cook" id="330">
         <attvalues>
-          <attvalue for="1" value="0.748120903968811" />
+          <attvalue for="1" value="0.7481210231781006" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -2598,13 +2598,13 @@
       </edge>
       <edge source="NeatlyCritical" target="audiomuse1" id="332">
         <attvalues>
-          <attvalue for="1" value="0.9798032641410828" />
+          <attvalue for="1" value="0.9798033833503723" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="NeatlyCritical" target="politicalthrow99" id="333">
         <attvalues>
-          <attvalue for="1" value="0.9573122262954712" />
+          <attvalue for="1" value="0.9573119878768921" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2640,7 +2640,7 @@
       </edge>
       <edge source="Ssider69" target="Free_Swimming" id="339">
         <attvalues>
-          <attvalue for="1" value="0.9586769342422485" />
+          <attvalue for="1" value="0.9586772322654724" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2652,7 +2652,7 @@
       </edge>
       <edge source="Ssider69" target="Conjobbed" id="341">
         <attvalues>
-          <attvalue for="1" value="0.9927412271499634" />
+          <attvalue for="1" value="0.9927411079406738" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2670,7 +2670,7 @@
       </edge>
       <edge source="Ssider69" target="wdcmsnbcgay" id="344">
         <attvalues>
-          <attvalue for="1" value="0.9509178996086121" />
+          <attvalue for="1" value="0.9509189128875732" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2718,7 +2718,7 @@
       </edge>
       <edge source="TechyGuyInIL" target="LibertyFidelityTruth" id="352">
         <attvalues>
-          <attvalue for="1" value="0.866826593875885" />
+          <attvalue for="1" value="0.8668263554573059" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -2742,7 +2742,7 @@
       </edge>
       <edge source="TechyGuyInIL" target="walter1950" id="356">
         <attvalues>
-          <attvalue for="1" value="0.9600812196731567" />
+          <attvalue for="1" value="0.9600814580917358" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2754,13 +2754,13 @@
       </edge>
       <edge source="TechyGuyInIL" target="politicalthrow99" id="358">
         <attvalues>
-          <attvalue for="1" value="0.9217389822006226" />
+          <attvalue for="1" value="0.9217390418052673" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="TechyGuyInIL" target="InbornRecourse" id="359">
         <attvalues>
-          <attvalue for="1" value="0.9434983730316162" />
+          <attvalue for="1" value="0.943498969078064" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2820,7 +2820,7 @@
       </edge>
       <edge source="TechyGuyInIL" target="AceCombat9519" id="369">
         <attvalues>
-          <attvalue for="1" value="0.9673192501068115" />
+          <attvalue for="1" value="0.9673193693161011" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2838,13 +2838,13 @@
       </edge>
       <edge source="TechyGuyInIL" target="Randomlynumbered" id="372">
         <attvalues>
-          <attvalue for="1" value="0.9923161268234253" />
+          <attvalue for="1" value="0.9923160076141357" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="TechyGuyInIL" target="lorilightning79" id="373">
         <attvalues>
-          <attvalue for="1" value="0.929565966129303" />
+          <attvalue for="1" value="0.9295655488967896" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2862,7 +2862,7 @@
       </edge>
       <edge source="TechyGuyInIL" target="Teacher-Investor" id="376">
         <attvalues>
-          <attvalue for="1" value="0.9915429353713989" />
+          <attvalue for="1" value="0.9915428161621094" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2880,13 +2880,13 @@
       </edge>
       <edge source="TechyGuyInIL" target="agjrpsl" id="379">
         <attvalues>
-          <attvalue for="1" value="0.899403989315033" />
+          <attvalue for="1" value="0.8994039297103882" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="TechyGuyInIL" target="russellrlf" id="380">
         <attvalues>
-          <attvalue for="1" value="0.7459583282470703" />
+          <attvalue for="1" value="0.7459585070610046" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2910,25 +2910,25 @@
       </edge>
       <edge source="TechyGuyInIL" target="eatingganesha" id="384">
         <attvalues>
-          <attvalue for="1" value="0.9415895342826843" />
+          <attvalue for="1" value="0.9415892958641052" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="TechyGuyInIL" target="Alternative_Gaee" id="385">
         <attvalues>
-          <attvalue for="1" value="0.905985414981842" />
+          <attvalue for="1" value="0.9059853553771973" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="littleoldlady71" target="Smelly-taint" id="386">
         <attvalues>
-          <attvalue for="1" value="0.9390484690666199" />
+          <attvalue for="1" value="0.9390481114387512" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="littleoldlady71" target="wenchette" id="387">
         <attvalues>
-          <attvalue for="1" value="0.8775944113731384" />
+          <attvalue for="1" value="0.877595841884613" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -2940,13 +2940,13 @@
       </edge>
       <edge source="Anticipator1234" target="DeusBex" id="389">
         <attvalues>
-          <attvalue for="1" value="0.7637850046157837" />
+          <attvalue for="1" value="0.7637835741043091" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="Alaina_TheGoddess" target="Randomlynumbered" id="390">
         <attvalues>
-          <attvalue for="1" value="0.5174723863601685" />
+          <attvalue for="1" value="0.5174785852432251" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -2976,7 +2976,7 @@
       </edge>
       <edge source="eatingganesha" target="jonfla" id="395">
         <attvalues>
-          <attvalue for="1" value="0.7677978873252869" />
+          <attvalue for="1" value="0.7677984237670898" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -3000,7 +3000,7 @@
       </edge>
       <edge source="Raspberries-Are-Evil" target="CrJ418" id="399">
         <attvalues>
-          <attvalue for="1" value="0.9295644164085388" />
+          <attvalue for="1" value="0.9295638203620911" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -3024,7 +3024,7 @@
       </edge>
       <edge source="Raspberries-Are-Evil" target="rhino910" id="403">
         <attvalues>
-          <attvalue for="1" value="0.9227073192596436" />
+          <attvalue for="1" value="0.9227076172828674" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -3102,7 +3102,7 @@
       </edge>
       <edge source="Raspberries-Are-Evil" target="BlankVerse" id="416">
         <attvalues>
-          <attvalue for="1" value="0.7600489854812622" />
+          <attvalue for="1" value="0.7600504159927368" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -3114,7 +3114,7 @@
       </edge>
       <edge source="Red_Rabbit_Blue" target="DeusBex" id="418">
         <attvalues>
-          <attvalue for="1" value="0.6981046199798584" />
+          <attvalue for="1" value="0.6981104016304016" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -3150,7 +3150,7 @@
       </edge>
       <edge source="graemeknows" target="Baba10x" id="424">
         <attvalues>
-          <attvalue for="1" value="0.9747005105018616" />
+          <attvalue for="1" value="0.9747006297111511" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -3162,7 +3162,7 @@
       </edge>
       <edge source="graemeknows" target="jsatz" id="426">
         <attvalues>
-          <attvalue for="1" value="0.9914522171020508" />
+          <attvalue for="1" value="0.9914520978927612" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -3192,13 +3192,13 @@
       </edge>
       <edge source="KeepCalmAndBaseball" target="CuPride" id="431">
         <attvalues>
-          <attvalue for="1" value="0.8824598789215088" />
+          <attvalue for="1" value="0.8824605941772461" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="nkaufman11" target="justin_quinnn" id="432">
         <attvalues>
-          <attvalue for="1" value="0.9623945355415344" />
+          <attvalue for="1" value="0.9623942971229553" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -3210,13 +3210,13 @@
       </edge>
       <edge source="coffeespeaking" target="jonfla" id="434">
         <attvalues>
-          <attvalue for="1" value="0.5613853931427002" />
+          <attvalue for="1" value="0.5613874793052673" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="coffeespeaking" target="NeatlyCritical" id="435">
         <attvalues>
-          <attvalue for="1" value="0.6488182544708252" />
+          <attvalue for="1" value="0.6488162875175476" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -3228,13 +3228,13 @@
       </edge>
       <edge source="coffeespeaking" target="Conjobbed" id="437">
         <attvalues>
-          <attvalue for="1" value="0.9823217391967773" />
+          <attvalue for="1" value="0.9823216199874878" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="blackforestham3789" target="Souled_Out" id="438">
         <attvalues>
-          <attvalue for="1" value="0.9130825400352478" />
+          <attvalue for="1" value="0.9130829572677612" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -3258,7 +3258,7 @@
       </edge>
       <edge source="GougeM" target="Souled_Out" id="442">
         <attvalues>
-          <attvalue for="1" value="0.585497260093689" />
+          <attvalue for="1" value="0.5854989886283875" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -3282,13 +3282,13 @@
       </edge>
       <edge source="Daddio209" target="Conjobbed" id="446">
         <attvalues>
-          <attvalue for="1" value="0.9402070045471191" />
+          <attvalue for="1" value="0.9402067065238953" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="Daddio209" target="Red_Rabbit_Blue" id="447">
         <attvalues>
-          <attvalue for="1" value="0.8971678018569946" />
+          <attvalue for="1" value="0.8971680998802185" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
@@ -3300,13 +3300,13 @@
       </edge>
       <edge source="YallerDawg" target="Conjobbed" id="449">
         <attvalues>
-          <attvalue for="1" value="0.920610785484314" />
+          <attvalue for="1" value="0.9206112623214722" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="YallerDawg" target="canonbutterfly" id="450">
         <attvalues>
-          <attvalue for="1" value="0.5226796865463257" />
+          <attvalue for="1" value="0.5226814150810242" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -3360,19 +3360,19 @@
       </edge>
       <edge source="YallerDawg" target="Cookie_Cutter_Cook" id="459">
         <attvalues>
-          <attvalue for="1" value="0.9886106848716736" />
+          <attvalue for="1" value="0.9886108040809631" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="YallerDawg" target="walter1950" id="460">
         <attvalues>
-          <attvalue for="1" value="0.6607310175895691" />
+          <attvalue for="1" value="0.6607363224029541" />
           <attvalue for="2" value="1" />
         </attvalues>
       </edge>
       <edge source="YallerDawg" target="Raspberries-Are-Evil" id="461">
         <attvalues>
-          <attvalue for="1" value="0.943170964717865" />
+          <attvalue for="1" value="0.9431706666946411" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
@@ -3384,13 +3384,13 @@
       </edge>
       <edge source="YallerDawg" target="semaphone-1842" id="463">
         <attvalues>
-          <attvalue for="1" value="0.9674968719482422" />
+          <attvalue for="1" value="0.9674969911575317" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
       <edge source="YallerDawg" target="TechyGuyInIL" id="464">
         <attvalues>
-          <attvalue for="1" value="0.9871292114257812" />
+          <attvalue for="1" value="0.9871290922164917" />
           <attvalue for="2" value="-1" />
         </attvalues>
       </edge>
