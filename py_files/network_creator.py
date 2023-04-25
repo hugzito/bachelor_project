@@ -175,8 +175,8 @@ def create_network(df):
     # adding each post author as a node to network, with their 1 dimensional title embeddings as an attribute (named polarity)
     print('\n===== adding nodes ======\n')
     for i, j in zip(embed_pairs.keys(), embeds):
-        print(f'added {i} with polarity {int(j)}')
-        G.add_node(i, polarity = int(j))
+        print(f'added {i} with polarity {j[0]}')
+        G.add_node(i, polarity = j[0])
 
     # getting list of user pairs for comments left on posts
     pairings = list(zip(df['comment_author'], df['post_author']))
