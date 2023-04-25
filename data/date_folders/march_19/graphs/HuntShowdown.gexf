@@ -1,0 +1,1482 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-04-25">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="sentiment" type="double" />
+      <attribute id="2" title="sign" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="polarity" type="float" />
+    </attributes>
+    <nodes>
+      <node id="talon010" label="talon010">
+        <attvalues>
+          <attvalue for="0" value="-0.6106312897468392" />
+        </attvalues>
+      </node>
+      <node id="LOwrYdr24" label="LOwrYdr24">
+        <attvalues>
+          <attvalue for="0" value="-6.396000468618047" />
+        </attvalues>
+      </node>
+      <node id="Chansh302" label="Chansh302">
+        <attvalues>
+          <attvalue for="0" value="4.955768383053247" />
+        </attvalues>
+      </node>
+      <node id="Butters_scotch9" label="Butters_scotch9">
+        <attvalues>
+          <attvalue for="0" value="-1.0385062210377256" />
+        </attvalues>
+      </node>
+      <node id="skeal88" label="skeal88">
+        <attvalues>
+          <attvalue for="0" value="-1.395050335183853" />
+        </attvalues>
+      </node>
+      <node id="Ok_Doubt_3770" label="Ok_Doubt_3770">
+        <attvalues>
+          <attvalue for="0" value="8.39954687689153" />
+        </attvalues>
+      </node>
+      <node id="HawtKoffee" label="HawtKoffee">
+        <attvalues>
+          <attvalue for="0" value="-2.1020408380995876" />
+        </attvalues>
+      </node>
+      <node id="Zerzafetz" label="Zerzafetz">
+        <attvalues>
+          <attvalue for="0" value="7.5246977036454075" />
+        </attvalues>
+      </node>
+      <node id="quinxkun" label="quinxkun">
+        <attvalues>
+          <attvalue for="0" value="-2.929360685420244" />
+        </attvalues>
+      </node>
+      <node id="NixaTek" label="NixaTek">
+        <attvalues>
+          <attvalue for="0" value="11.423711823767624" />
+        </attvalues>
+      </node>
+      <node id="jak1900" label="jak1900">
+        <attvalues>
+          <attvalue for="0" value="1.8853433821651884" />
+        </attvalues>
+      </node>
+      <node id="Magikuhrp" label="Magikuhrp">
+        <attvalues>
+          <attvalue for="0" value="-8.15296449652698" />
+        </attvalues>
+      </node>
+      <node id="JSaire31" label="JSaire31">
+        <attvalues>
+          <attvalue for="0" value="-0.9371396699751408" />
+        </attvalues>
+      </node>
+      <node id="Jenn_FTW" label="Jenn_FTW">
+        <attvalues>
+          <attvalue for="0" value="0.3963958754944888" />
+        </attvalues>
+      </node>
+      <node id="SAD-Simp" label="SAD-Simp">
+        <attvalues>
+          <attvalue for="0" value="0.5988231550346224" />
+        </attvalues>
+      </node>
+      <node id="spacewolf258" label="spacewolf258">
+        <attvalues>
+          <attvalue for="0" value="7.5944139236785" />
+        </attvalues>
+      </node>
+      <node id="Guiiisard" label="Guiiisard">
+        <attvalues>
+          <attvalue for="0" value="-6.2589103396186765" />
+        </attvalues>
+      </node>
+      <node id="jrow_official" label="jrow_official">
+        <attvalues>
+          <attvalue for="0" value="-3.064145196810054" />
+        </attvalues>
+      </node>
+      <node id="aintrdenfer" label="aintrdenfer">
+        <attvalues>
+          <attvalue for="0" value="4.58176676919263" />
+        </attvalues>
+      </node>
+      <node id="C0wb31l" label="C0wb31l">
+        <attvalues>
+          <attvalue for="0" value="12.319846971994068" />
+        </attvalues>
+      </node>
+      <node id="Sorta-Rican" label="Sorta-Rican">
+        <attvalues>
+          <attvalue for="0" value="3.6577514404695974" />
+        </attvalues>
+      </node>
+      <node id="JanaCinnamon" label="JanaCinnamon">
+        <attvalues>
+          <attvalue for="0" value="3.143131771999118" />
+        </attvalues>
+      </node>
+      <node id="HomeReel" label="HomeReel">
+        <attvalues>
+          <attvalue for="0" value="1.1735411298864529" />
+        </attvalues>
+      </node>
+      <node id="KlausVonLechland" label="KlausVonLechland">
+        <attvalues>
+          <attvalue for="0" value="0.7924649325971832" />
+        </attvalues>
+      </node>
+      <node id="zherper" label="zherper">
+        <attvalues>
+          <attvalue for="0" value="2.1026619022279145" />
+        </attvalues>
+      </node>
+      <node id="MadMax5699" label="MadMax5699">
+        <attvalues>
+          <attvalue for="0" value="-1.040875757154862" />
+        </attvalues>
+      </node>
+      <node id="McDippin" label="McDippin">
+        <attvalues>
+          <attvalue for="0" value="-1.6162252719897576" />
+        </attvalues>
+      </node>
+      <node id="CRISPY_JAY" label="CRISPY_JAY">
+        <attvalues>
+          <attvalue for="0" value="-3.982252956988281" />
+        </attvalues>
+      </node>
+      <node id="_yavi" label="_yavi">
+        <attvalues>
+          <attvalue for="0" value="-6.771988078184571" />
+        </attvalues>
+      </node>
+      <node id="LegomoreYT" label="LegomoreYT">
+        <attvalues>
+          <attvalue for="0" value="0.8717609272188185" />
+        </attvalues>
+      </node>
+      <node id="VarroCZ" label="VarroCZ">
+        <attvalues>
+          <attvalue for="0" value="-0.6321939156345425" />
+        </attvalues>
+      </node>
+      <node id="Killerkekz1994" label="Killerkekz1994">
+        <attvalues>
+          <attvalue for="0" value="-3.062036433715172" />
+        </attvalues>
+      </node>
+      <node id="DaveMLG" label="DaveMLG">
+        <attvalues>
+          <attvalue for="0" value="-5.35820650048062" />
+        </attvalues>
+      </node>
+      <node id="rivingtonthe3rd" label="rivingtonthe3rd">
+        <attvalues>
+          <attvalue for="0" value="0.6548605884188203" />
+        </attvalues>
+      </node>
+      <node id="mtndewgunblade" label="mtndewgunblade">
+        <attvalues>
+          <attvalue for="0" value="2.6248220057591136" />
+        </attvalues>
+      </node>
+      <node id="SinlessFall" label="SinlessFall">
+        <attvalues>
+          <attvalue for="0" value="-2.122778616333713" />
+        </attvalues>
+      </node>
+      <node id="leemitsu" label="leemitsu">
+        <attvalues>
+          <attvalue for="0" value="-0.25813779823688043" />
+        </attvalues>
+      </node>
+      <node id="ahnysza" label="ahnysza">
+        <attvalues>
+          <attvalue for="0" value="-1.2682117536118336" />
+        </attvalues>
+      </node>
+      <node id="Kaname--" label="Kaname--">
+        <attvalues>
+          <attvalue for="0" value="-5.88474868059325" />
+        </attvalues>
+      </node>
+      <node id="SgtCookie18" label="SgtCookie18">
+        <attvalues>
+          <attvalue for="0" value="3.6528360625165046" />
+        </attvalues>
+      </node>
+      <node id="GhostChainSmoker" label="GhostChainSmoker">
+        <attvalues>
+          <attvalue for="0" value="1.2970494022978352" />
+        </attvalues>
+      </node>
+      <node id="Thatgobo" label="Thatgobo">
+        <attvalues>
+          <attvalue for="0" value="-2.983498484372004" />
+        </attvalues>
+      </node>
+      <node id="StepMaverick" label="StepMaverick">
+        <attvalues>
+          <attvalue for="0" value="6.162220269561812" />
+        </attvalues>
+      </node>
+      <node id="Deathcounter0" label="Deathcounter0">
+        <attvalues>
+          <attvalue for="0" value="-6.111461074594082" />
+        </attvalues>
+      </node>
+      <node id="hopdaddy32" label="hopdaddy32">
+        <attvalues>
+          <attvalue for="0" value="-2.298461317852644" />
+        </attvalues>
+      </node>
+      <node id="Incheoul" label="Incheoul">
+        <attvalues>
+          <attvalue for="0" value="3.2325279230411517" />
+        </attvalues>
+      </node>
+      <node id="Chief81" label="Chief81">
+        <attvalues>
+          <attvalue for="0" value="-5.727897726799217" />
+        </attvalues>
+      </node>
+      <node id="KermitmentIssues" label="KermitmentIssues">
+        <attvalues>
+          <attvalue for="0" value="-7.545276763142871" />
+        </attvalues>
+      </node>
+      <node id="Highlord_S" label="Highlord_S">
+        <attvalues>
+          <attvalue for="0" value="-4.961909628886285" />
+        </attvalues>
+      </node>
+      <node id="Donthelemondwarf" label="Donthelemondwarf">
+        <attvalues>
+          <attvalue for="0" value="2.163509156866239" />
+        </attvalues>
+      </node>
+      <node id="Gashpar-_-" label="Gashpar-_-">
+        <attvalues>
+          <attvalue for="0" value="4.16647301009467" />
+        </attvalues>
+      </node>
+      <node id="ralleee" label="ralleee">
+        <attvalues>
+          <attvalue for="0" value="-0.509148449282036" />
+        </attvalues>
+      </node>
+      <node id="UsecMyNuts" label="UsecMyNuts">
+        <attvalues>
+          <attvalue for="0" value="-3.231210032632345" />
+        </attvalues>
+      </node>
+      <node id="Cpt_Fantabulous" label="Cpt_Fantabulous">
+        <attvalues>
+          <attvalue for="0" value="2.8334193215630474" />
+        </attvalues>
+      </node>
+      <node id="superxero1" label="superxero1">
+        <attvalues>
+          <attvalue for="0" value="-0.09930800757395013" />
+        </attvalues>
+      </node>
+      <node id="Orbish013" label="Orbish013">
+        <attvalues>
+          <attvalue for="0" value="-6.175368528767318" />
+        </attvalues>
+      </node>
+      <node id="LucasPortela" label="LucasPortela">
+        <attvalues>
+          <attvalue for="0" value="-1.83403886585531" />
+        </attvalues>
+      </node>
+      <node id="Ai_of_Vanity" label="Ai_of_Vanity">
+        <attvalues>
+          <attvalue for="0" value="8.030922850573912" />
+        </attvalues>
+      </node>
+      <node id="feather236" label="feather236">
+        <attvalues>
+          <attvalue for="0" value="-5.212938801317595" />
+        </attvalues>
+      </node>
+      <node id="Just_Adam_LT" label="Just_Adam_LT">
+        <attvalues>
+          <attvalue for="0" value="-4.658601700913243" />
+        </attvalues>
+      </node>
+      <node id="MeSmeshFruit" label="MeSmeshFruit">
+        <attvalues>
+          <attvalue for="0" value="0.5253514200626694" />
+        </attvalues>
+      </node>
+      <node id="BehaartesteKimmeInDE" label="BehaartesteKimmeInDE">
+        <attvalues>
+          <attvalue for="0" value="-1.2162418804934174" />
+        </attvalues>
+      </node>
+      <node id="Astonishing-Sod-Ape" label="Astonishing-Sod-Ape">
+        <attvalues>
+          <attvalue for="0" value="-5.060337869870918" />
+        </attvalues>
+      </node>
+      <node id="SloppyKnob97" label="SloppyKnob97">
+        <attvalues>
+          <attvalue for="0" value="4.306716529842027" />
+        </attvalues>
+      </node>
+      <node id="dinoworm" label="dinoworm">
+        <attvalues>
+          <attvalue for="0" value="-4.793237716670786" />
+        </attvalues>
+      </node>
+      <node id="Sensquesteur" label="Sensquesteur">
+        <attvalues>
+          <attvalue for="0" value="-3.0304528158084323" />
+        </attvalues>
+      </node>
+      <node id="Kheel3" label="Kheel3">
+        <attvalues>
+          <attvalue for="0" value="6.667571722878989" />
+        </attvalues>
+      </node>
+      <node id="_sandcastle" label="_sandcastle">
+        <attvalues>
+          <attvalue for="0" value="0.042313259887555535" />
+        </attvalues>
+      </node>
+      <node id="Opposite-Flamingo-41" label="Opposite-Flamingo-41">
+        <attvalues>
+          <attvalue for="0" value="0.9881407318221853" />
+        </attvalues>
+      </node>
+      <node id="Mullraugh" label="Mullraugh">
+        <attvalues>
+          <attvalue for="0" value="-2.756793635961487" />
+        </attvalues>
+      </node>
+      <node id="Old-Sport3218" label="Old-Sport3218">
+        <attvalues>
+          <attvalue for="0" value="1.0409087109763837" />
+        </attvalues>
+      </node>
+      <node id="Ill-Kaleidoscope-107" label="Ill-Kaleidoscope-107">
+        <attvalues>
+          <attvalue for="0" value="4.155732738289027" />
+        </attvalues>
+      </node>
+      <node id="MR_FOXtf2" label="MR_FOXtf2">
+        <attvalues>
+          <attvalue for="0" value="-0.7218247186130894" />
+        </attvalues>
+      </node>
+      <node id="hanpnguyen13" label="hanpnguyen13">
+        <attvalues>
+          <attvalue for="0" value="-4.433157162798075" />
+        </attvalues>
+      </node>
+      <node id="mrsandboy" label="mrsandboy">
+        <attvalues>
+          <attvalue for="0" value="-4.705862506326423" />
+        </attvalues>
+      </node>
+      <node id="IFisherI" label="IFisherI">
+        <attvalues>
+          <attvalue for="0" value="-3.9319131711018147" />
+        </attvalues>
+      </node>
+      <node id="jillywacker" label="jillywacker">
+        <attvalues>
+          <attvalue for="0" value="-5.602514183857035" />
+        </attvalues>
+      </node>
+      <node id="Roaring_Anubis" label="Roaring_Anubis">
+        <attvalues>
+          <attvalue for="0" value="-4.6219002836774274" />
+        </attvalues>
+      </node>
+      <node id="Rumple92" label="Rumple92">
+        <attvalues>
+          <attvalue for="0" value="-7.18451901941486" />
+        </attvalues>
+      </node>
+      <node id="Aarithan" label="Aarithan">
+        <attvalues>
+          <attvalue for="0" value="0.8435983407926244" />
+        </attvalues>
+      </node>
+      <node id="toshii_" label="toshii_">
+        <attvalues>
+          <attvalue for="0" value="3.614366465910643" />
+        </attvalues>
+      </node>
+      <node id="counterdevonSKI" label="counterdevonSKI">
+        <attvalues>
+          <attvalue for="0" value="-4.636425246821543" />
+        </attvalues>
+      </node>
+      <node id="GergoBacsiVokCs" label="GergoBacsiVokCs">
+        <attvalues>
+          <attvalue for="0" value="-5.403740832072057" />
+        </attvalues>
+      </node>
+      <node id="KenobiInNairobi" label="KenobiInNairobi">
+        <attvalues>
+          <attvalue for="0" value="-1.3906771745983677" />
+        </attvalues>
+      </node>
+      <node id="snoman18x" label="snoman18x">
+        <attvalues>
+          <attvalue for="0" value="8.439746301990299" />
+        </attvalues>
+      </node>
+      <node id="Veryance" label="Veryance">
+        <attvalues>
+          <attvalue for="0" value="5.02054477248339" />
+        </attvalues>
+      </node>
+      <node id="eadorin" label="eadorin">
+        <attvalues>
+          <attvalue for="0" value="-5.847638269920545" />
+        </attvalues>
+      </node>
+      <node id="RawMacGyver" label="RawMacGyver">
+        <attvalues>
+          <attvalue for="0" value="-2.8004240298048453" />
+        </attvalues>
+      </node>
+      <node id="HUNKtm" label="HUNKtm">
+        <attvalues>
+          <attvalue for="0" value="5.067144267120117" />
+        </attvalues>
+      </node>
+      <node id="Embarrassed-Equal-19" label="Embarrassed-Equal-19">
+        <attvalues>
+          <attvalue for="0" value="-0.8349404384745539" />
+        </attvalues>
+      </node>
+      <node id="milkkore" label="milkkore">
+        <attvalues>
+          <attvalue for="0" value="-5.343563182453157" />
+        </attvalues>
+      </node>
+      <node id="Lex_the_Grim" label="Lex_the_Grim">
+        <attvalues>
+          <attvalue for="0" value="11.50015324068331" />
+        </attvalues>
+      </node>
+      <node id="Phineas2001" label="Phineas2001">
+        <attvalues>
+          <attvalue for="0" value="7.470029075657369" />
+        </attvalues>
+      </node>
+      <node id="dewritosfucker" label="dewritosfucker">
+        <attvalues>
+          <attvalue for="0" value="-2.8251062938231217" />
+        </attvalues>
+      </node>
+      <node id="Blueflame8_28" label="Blueflame8_28">
+        <attvalues>
+          <attvalue for="0" value="1.8358244328329303" />
+        </attvalues>
+      </node>
+      <node id="red_kizuen" label="red_kizuen">
+        <attvalues>
+          <attvalue for="0" value="10.457864647371057" />
+        </attvalues>
+      </node>
+      <node id="MrMaylow" label="MrMaylow">
+        <attvalues>
+          <attvalue for="0" value="1.5662644519082192" />
+        </attvalues>
+      </node>
+      <node id="TheGentlemanGamerEC" label="TheGentlemanGamerEC">
+        <attvalues>
+          <attvalue for="0" value="2.8579365993368055" />
+        </attvalues>
+      </node>
+      <node id="Catlas_Se7en" label="Catlas_Se7en">
+        <attvalues>
+          <attvalue for="0" value="11.523121919097221" />
+        </attvalues>
+      </node>
+      <node id="Corense-DeGilead" label="Corense-DeGilead">
+        <attvalues>
+          <attvalue for="0" value="-2.3728144503797837" />
+        </attvalues>
+      </node>
+      <node id="FickenChucker_" label="FickenChucker_">
+        <attvalues>
+          <attvalue for="0" value="-3.9835469612820376" />
+        </attvalues>
+      </node>
+      <node id="Drewbertttttt" label="Drewbertttttt">
+        <attvalues>
+          <attvalue for="0" value="4.247415067181013" />
+        </attvalues>
+      </node>
+      <node id="PigsR4Eating" label="PigsR4Eating">
+        <attvalues>
+          <attvalue for="0" value="1.3181442740399902" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="talon010" target="skeal88" id="0">
+        <attvalues>
+          <attvalue for="1" value="0.4215" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Chansh302" target="aintrdenfer" id="1">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Butters_scotch9" target="JanaCinnamon" id="2">
+        <attvalues>
+          <attvalue for="1" value="0.4019" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Butters_scotch9" target="_sandcastle" id="3">
+        <attvalues>
+          <attvalue for="1" value="0.5859" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="Magikuhrp" id="4">
+        <attvalues>
+          <attvalue for="1" value="-0.4019" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="jrow_official" id="5">
+        <attvalues>
+          <attvalue for="1" value="0.7964" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="LegomoreYT" id="6">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="GhostChainSmoker" id="7">
+        <attvalues>
+          <attvalue for="1" value="0.7351" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="superxero1" id="8">
+        <attvalues>
+          <attvalue for="1" value="-0.4588" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="MeSmeshFruit" id="9">
+        <attvalues>
+          <attvalue for="1" value="0.7063" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="Opposite-Flamingo-41" id="10">
+        <attvalues>
+          <attvalue for="1" value="-0.765" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="Roaring_Anubis" id="11">
+        <attvalues>
+          <attvalue for="1" value="-0.7717" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="Veryance" id="12">
+        <attvalues>
+          <attvalue for="1" value="0.5267" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="eadorin" id="13">
+        <attvalues>
+          <attvalue for="1" value="0.0772" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="milkkore" id="14">
+        <attvalues>
+          <attvalue for="1" value="0.4404" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="Blueflame8_28" id="15">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="red_kizuen" id="16">
+        <attvalues>
+          <attvalue for="1" value="0.6369" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="skeal88" target="PigsR4Eating" id="17">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="HawtKoffee" target="dewritosfucker" id="18">
+        <attvalues>
+          <attvalue for="1" value="0.4404" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Zerzafetz" target="ahnysza" id="19">
+        <attvalues>
+          <attvalue for="1" value="0.4404" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Zerzafetz" target="KermitmentIssues" id="20">
+        <attvalues>
+          <attvalue for="1" value="-0.6428" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Zerzafetz" target="Chief81" id="21">
+        <attvalues>
+          <attvalue for="1" value="-0.7906" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="NixaTek" target="mtndewgunblade" id="22">
+        <attvalues>
+          <attvalue for="1" value="0.4019" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="NixaTek" target="LucasPortela" id="23">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="NixaTek" target="hanpnguyen13" id="24">
+        <attvalues>
+          <attvalue for="1" value="-0.4767" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="jak1900" target="skeal88" id="25">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jak1900" target="StepMaverick" id="26">
+        <attvalues>
+          <attvalue for="1" value="-0.34" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="quinxkun" id="27">
+        <attvalues>
+          <attvalue for="1" value="0.6705" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="SinlessFall" id="28">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="_yavi" id="29">
+        <attvalues>
+          <attvalue for="1" value="0.8555" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="ahnysza" id="30">
+        <attvalues>
+          <attvalue for="1" value="0.891" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="Incheoul" id="31">
+        <attvalues>
+          <attvalue for="1" value="0.4404" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="Chief81" id="32">
+        <attvalues>
+          <attvalue for="1" value="0.4019" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="Donthelemondwarf" id="33">
+        <attvalues>
+          <attvalue for="1" value="0.6222" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="MeSmeshFruit" id="34">
+        <attvalues>
+          <attvalue for="1" value="0.4019" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="SloppyKnob97" id="35">
+        <attvalues>
+          <attvalue for="1" value="0.6705" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="Kheel3" id="36">
+        <attvalues>
+          <attvalue for="1" value="-0.6908" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="GergoBacsiVokCs" id="37">
+        <attvalues>
+          <attvalue for="1" value="0.3197" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="HUNKtm" id="38">
+        <attvalues>
+          <attvalue for="1" value="-0.7371" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="jrow_official" target="MrMaylow" id="39">
+        <attvalues>
+          <attvalue for="1" value="-0.8176" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Sorta-Rican" target="aintrdenfer" id="40">
+        <attvalues>
+          <attvalue for="1" value="0.032" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Sorta-Rican" target="Highlord_S" id="41">
+        <attvalues>
+          <attvalue for="1" value="0.3182" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="HomeReel" target="IFisherI" id="42">
+        <attvalues>
+          <attvalue for="1" value="0.607" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="HomeReel" target="KenobiInNairobi" id="43">
+        <attvalues>
+          <attvalue for="1" value="0.8225" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="KlausVonLechland" target="quinxkun" id="44">
+        <attvalues>
+          <attvalue for="1" value="0.5777" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="_yavi" target="aintrdenfer" id="45">
+        <attvalues>
+          <attvalue for="1" value="-0.7693" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="_yavi" target="Deathcounter0" id="46">
+        <attvalues>
+          <attvalue for="1" value="-0.2235" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LegomoreYT" target="Opposite-Flamingo-41" id="47">
+        <attvalues>
+          <attvalue for="1" value="-0.34" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Killerkekz1994" target="C0wb31l" id="48">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Killerkekz1994" target="Ai_of_Vanity" id="49">
+        <attvalues>
+          <attvalue for="1" value="-0.5719" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Killerkekz1994" target="feather236" id="50">
+        <attvalues>
+          <attvalue for="1" value="0.7413" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Killerkekz1994" target="SloppyKnob97" id="51">
+        <attvalues>
+          <attvalue for="1" value="0.4588" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Killerkekz1994" target="KenobiInNairobi" id="52">
+        <attvalues>
+          <attvalue for="1" value="0.2944" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="SinlessFall" target="Deathcounter0" id="53">
+        <attvalues>
+          <attvalue for="1" value="-0.3593" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="leemitsu" target="MadMax5699" id="54">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="leemitsu" target="StepMaverick" id="55">
+        <attvalues>
+          <attvalue for="1" value="0.5647" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="SgtCookie18" target="BehaartesteKimmeInDE" id="56">
+        <attvalues>
+          <attvalue for="1" value="-0.128" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="SgtCookie18" target="Aarithan" id="57">
+        <attvalues>
+          <attvalue for="1" value="0.8225" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="GhostChainSmoker" target="LOwrYdr24" id="58">
+        <attvalues>
+          <attvalue for="1" value="0.6369" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="GhostChainSmoker" target="Magikuhrp" id="59">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="GhostChainSmoker" target="HomeReel" id="60">
+        <attvalues>
+          <attvalue for="1" value="0.5559" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="GhostChainSmoker" target="Kaname--" id="61">
+        <attvalues>
+          <attvalue for="1" value="-0.608" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="GhostChainSmoker" target="Just_Adam_LT" id="62">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="GhostChainSmoker" target="Astonishing-Sod-Ape" id="63">
+        <attvalues>
+          <attvalue for="1" value="0.8126" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="GhostChainSmoker" target="Sensquesteur" id="64">
+        <attvalues>
+          <attvalue for="1" value="-0.6901" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="GhostChainSmoker" target="Old-Sport3218" id="65">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="GhostChainSmoker" target="snoman18x" id="66">
+        <attvalues>
+          <attvalue for="1" value="-0.5267" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="GhostChainSmoker" target="Veryance" id="67">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="GhostChainSmoker" target="red_kizuen" id="68">
+        <attvalues>
+          <attvalue for="1" value="0.0772" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="StepMaverick" target="skeal88" id="69">
+        <attvalues>
+          <attvalue for="1" value="-0.2035" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="StepMaverick" target="zherper" id="70">
+        <attvalues>
+          <attvalue for="1" value="0.4516" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="StepMaverick" target="leemitsu" id="71">
+        <attvalues>
+          <attvalue for="1" value="0.431" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="StepMaverick" target="BehaartesteKimmeInDE" id="72">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="StepMaverick" target="Blueflame8_28" id="73">
+        <attvalues>
+          <attvalue for="1" value="0.3612" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="StepMaverick" target="jrow_official" id="74">
+        <attvalues>
+          <attvalue for="1" value="-0.34" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="talon010" id="75">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="LOwrYdr24" id="76">
+        <attvalues>
+          <attvalue for="1" value="-0.8591" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="Chansh302" id="77">
+        <attvalues>
+          <attvalue for="1" value="0.7717" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="Ok_Doubt_3770" id="78">
+        <attvalues>
+          <attvalue for="1" value="0.4201" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="HawtKoffee" id="79">
+        <attvalues>
+          <attvalue for="1" value="0.3612" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="Zerzafetz" id="80">
+        <attvalues>
+          <attvalue for="1" value="0.7869" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="jak1900" id="81">
+        <attvalues>
+          <attvalue for="1" value="-0.5353" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="Guiiisard" id="82">
+        <attvalues>
+          <attvalue for="1" value="-0.412" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="DaveMLG" id="83">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="skeal88" id="84">
+        <attvalues>
+          <attvalue for="1" value="0.1779" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="_yavi" id="85">
+        <attvalues>
+          <attvalue for="1" value="0.8443" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="ahnysza" id="86">
+        <attvalues>
+          <attvalue for="1" value="-0.9382" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="SgtCookie18" id="87">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="Chief81" id="88">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="Gashpar-_-" id="89">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="UsecMyNuts" id="90">
+        <attvalues>
+          <attvalue for="1" value="-0.7864" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="Orbish013" id="91">
+        <attvalues>
+          <attvalue for="1" value="-0.5621" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="MeSmeshFruit" id="92">
+        <attvalues>
+          <attvalue for="1" value="-0.5632" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="Sensquesteur" id="93">
+        <attvalues>
+          <attvalue for="1" value="0.296" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="IFisherI" id="94">
+        <attvalues>
+          <attvalue for="1" value="-0.6668" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="Roaring_Anubis" id="95">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="jrow_official" id="96">
+        <attvalues>
+          <attvalue for="1" value="-0.4019" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Deathcounter0" target="TheGentlemanGamerEC" id="97">
+        <attvalues>
+          <attvalue for="1" value="0.2177" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Chief81" target="zherper" id="98">
+        <attvalues>
+          <attvalue for="1" value="-0.3448" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Chief81" target="Kaname--" id="99">
+        <attvalues>
+          <attvalue for="1" value="0.4748" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Chief81" target="Catlas_Se7en" id="100">
+        <attvalues>
+          <attvalue for="1" value="-0.4939" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Chief81" target="jrow_official" id="101">
+        <attvalues>
+          <attvalue for="1" value="0.8625" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Donthelemondwarf" target="Mullraugh" id="102">
+        <attvalues>
+          <attvalue for="1" value="-0.8316" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Cpt_Fantabulous" target="superxero1" id="103">
+        <attvalues>
+          <attvalue for="1" value="0.7713" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="superxero1" target="HomeReel" id="104">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Ai_of_Vanity" target="HomeReel" id="105">
+        <attvalues>
+          <attvalue for="1" value="-0.296" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ai_of_Vanity" target="Blueflame8_28" id="106">
+        <attvalues>
+          <attvalue for="1" value="0.7717" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Ai_of_Vanity" target="Drewbertttttt" id="107">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="MeSmeshFruit" target="talon010" id="108">
+        <attvalues>
+          <attvalue for="1" value="0.3089" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="MeSmeshFruit" target="KermitmentIssues" id="109">
+        <attvalues>
+          <attvalue for="1" value="-0.9957" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="dinoworm" target="eadorin" id="110">
+        <attvalues>
+          <attvalue for="1" value="0.5267" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="dinoworm" target="Catlas_Se7en" id="111">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Sensquesteur" target="talon010" id="112">
+        <attvalues>
+          <attvalue for="1" value="0.6478" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Sensquesteur" target="hopdaddy32" id="113">
+        <attvalues>
+          <attvalue for="1" value="0.3818" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Sensquesteur" target="superxero1" id="114">
+        <attvalues>
+          <attvalue for="1" value="0.4364" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Sensquesteur" target="Old-Sport3218" id="115">
+        <attvalues>
+          <attvalue for="1" value="0.8805" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Kheel3" target="skeal88" id="116">
+        <attvalues>
+          <attvalue for="1" value="0.8519" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Mullraugh" target="Donthelemondwarf" id="117">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Old-Sport3218" target="jillywacker" id="118">
+        <attvalues>
+          <attvalue for="1" value="0.3612" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Ill-Kaleidoscope-107" target="spacewolf258" id="119">
+        <attvalues>
+          <attvalue for="1" value="0.7939" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Ill-Kaleidoscope-107" target="Guiiisard" id="120">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Ill-Kaleidoscope-107" target="skeal88" id="121">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Ill-Kaleidoscope-107" target="Cpt_Fantabulous" id="122">
+        <attvalues>
+          <attvalue for="1" value="0.8658" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="MR_FOXtf2" target="Killerkekz1994" id="123">
+        <attvalues>
+          <attvalue for="1" value="-0.6808" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="mrsandboy" target="Magikuhrp" id="124">
+        <attvalues>
+          <attvalue for="1" value="-0.6808" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="mrsandboy" target="Phineas2001" id="125">
+        <attvalues>
+          <attvalue for="1" value="0.25" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jillywacker" target="Jenn_FTW" id="126">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jillywacker" target="Guiiisard" id="127">
+        <attvalues>
+          <attvalue for="1" value="0.8347" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jillywacker" target="JanaCinnamon" id="128">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="jillywacker" target="leemitsu" id="129">
+        <attvalues>
+          <attvalue for="1" value="-0.296" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Roaring_Anubis" target="Butters_scotch9" id="130">
+        <attvalues>
+          <attvalue for="1" value="0.7845" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Roaring_Anubis" target="skeal88" id="131">
+        <attvalues>
+          <attvalue for="1" value="0.6242" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Roaring_Anubis" target="SAD-Simp" id="132">
+        <attvalues>
+          <attvalue for="1" value="0.2023" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Roaring_Anubis" target="CRISPY_JAY" id="133">
+        <attvalues>
+          <attvalue for="1" value="0.2263" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Roaring_Anubis" target="Donthelemondwarf" id="134">
+        <attvalues>
+          <attvalue for="1" value="-0.6908" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Roaring_Anubis" target="snoman18x" id="135">
+        <attvalues>
+          <attvalue for="1" value="-0.1027" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="toshii_" target="JSaire31" id="136">
+        <attvalues>
+          <attvalue for="1" value="0.4276" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="toshii_" target="Roaring_Anubis" id="137">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="snoman18x" target="Chansh302" id="138">
+        <attvalues>
+          <attvalue for="1" value="0.465" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="snoman18x" target="Butters_scotch9" id="139">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="snoman18x" target="spacewolf258" id="140">
+        <attvalues>
+          <attvalue for="1" value="-0.296" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="snoman18x" target="Thatgobo" id="141">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="milkkore" target="MR_FOXtf2" id="142">
+        <attvalues>
+          <attvalue for="1" value="0.3708" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="red_kizuen" target="Butters_scotch9" id="143">
+        <attvalues>
+          <attvalue for="1" value="0.5106" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="red_kizuen" target="NixaTek" id="144">
+        <attvalues>
+          <attvalue for="1" value="-0.7469" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="red_kizuen" target="ahnysza" id="145">
+        <attvalues>
+          <attvalue for="1" value="-0.8816" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="red_kizuen" target="Ill-Kaleidoscope-107" id="146">
+        <attvalues>
+          <attvalue for="1" value="-0.4939" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="TheGentlemanGamerEC" target="JanaCinnamon" id="147">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="TheGentlemanGamerEC" target="KlausVonLechland" id="148">
+        <attvalues>
+          <attvalue for="1" value="-0.4939" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="TheGentlemanGamerEC" target="zherper" id="149">
+        <attvalues>
+          <attvalue for="1" value="-0.34" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="TheGentlemanGamerEC" target="MeSmeshFruit" id="150">
+        <attvalues>
+          <attvalue for="1" value="-0.5535" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="TheGentlemanGamerEC" target="dinoworm" id="151">
+        <attvalues>
+          <attvalue for="1" value="0.4404" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="TheGentlemanGamerEC" target="milkkore" id="152">
+        <attvalues>
+          <attvalue for="1" value="0.4585" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="TheGentlemanGamerEC" target="red_kizuen" id="153">
+        <attvalues>
+          <attvalue for="1" value="-0.3539" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Catlas_Se7en" target="BehaartesteKimmeInDE" id="154">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="Catlas_Se7en" target="KenobiInNairobi" id="155">
+        <attvalues>
+          <attvalue for="1" value="-0.8519" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Corense-DeGilead" target="quinxkun" id="156">
+        <attvalues>
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+      <edge source="PigsR4Eating" target="Mullraugh" id="157">
+        <attvalues>
+          <attvalue for="1" value="0.0258" />
+          <attvalue for="2" value="-1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

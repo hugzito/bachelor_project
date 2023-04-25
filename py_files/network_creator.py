@@ -150,7 +150,20 @@ def create_network(df):
     '''Takes dataframe as input, creates a directed networkx network and returns it'''
 
     # Initializing text classification model
-    model = HappyTextClassification(model_type='DISTILBERT', model_name='distilbert-base-uncased-finetuned-sst-2-english', num_labels=2)
+    # model = HappyTextClassification(model_type='DISTILBERT', model_name='distilbert-base-uncased-finetuned-sst-2-english', num_labels=2)
+
+    from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
+    #calculate the negative, positive, neutral and compound scores, plus verbal evaluation
+    def sentiment_vader(sentence):
+
+        # Create a SentimentIntensityAnalyzer object.
+        sid_obj = SentimentIntensityAnalyzer()
+
+        sentiment_dict = sid_obj.polarity_scores(sentence)
+        compound = sentiment_dict['compound']
+        
+        return compound
 
     # initializing networkx directed graph
     G = nx.DiGraph()
@@ -185,16 +198,29 @@ def create_network(df):
     print('doing polarities')
 
     # classifying sentiments of comment texts and saving them in list "polarities"
+    # polarities = []
+    # signs = []
+    # for comment in df['short_text']:
+    #     classification = model.classify_text(comment)
+    #     polarities.append(classification.score)
+
+    #     if classification.label == 'POSITIVE':
+    #         signs.append(1)
+    #     elif classification.label == 'NEGATIVE':
+    #         signs.append(-1)
+
     polarities = []
     signs = []
-    for comment in df['short_text']:
-        classification = model.classify_text(comment)
-        polarities.append(classification.score)
-
-        if classification.label == 'POSITIVE':
+    for comment in df['text_clean']:
+        sentiment = sentiment_vader(comment)
+        polarities.append(sentiment)
+        if sentiment < 0:
             signs.append(1)
-        elif classification.label == 'NEGATIVE':
+        else:
             signs.append(-1)
+    df['comment_sentiment'] = polarities
+
+
     
     print(len(polarities))
 
@@ -228,20 +254,20 @@ def full_pipeline(df):
     return G
 
 
-filename = str(sys.argv[-1])
-dest = filename.split('/')[-1].split('.')[0]
+# filename = str(sys.argv[-1])
+# dest = filename.split('/')[-1].split('.')[0]
 
-print(filename)
+# print(filename)
 
-# grabbing scraped df
-df = pd.read_csv(filename)
+# # grabbing scraped df
+# df = pd.read_csv(filename)
 
-G = full_pipeline(df)
+# G = full_pipeline(df)
 
-# check if the directory exists
-if not os.path.exists('temp'):
-    # create the directory if it doesn't exist
-    os.makedirs('temp')
+# # check if the directory exists
+# if not os.path.exists('temp'):
+#     # create the directory if it doesn't exist
+#     os.makedirs('temp')
 
-# saving network
-nx.write_gexf(G, f'temp/{dest}.gexf')
+# # saving network
+# nx.write_gexf(G, f'temp/{dest}.gexf')

@@ -63,4 +63,4 @@ def do_both_save(subreddit, path):
 
     title_plot.savefig(('../data/plots/titles_' + subreddit))
     sentiment_plot.savefig(('../data/plots/sentiments_' + subreddit))
-    return
+    return 
