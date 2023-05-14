@@ -1,5 +1,5 @@
 # Bachelor Project: Reddit Scraping to Measure Polarization
-For sharing code and files and having backups.
+Code and file-shraing repo for our bachelor's project. 
 
 - Data: Folder containing data scrapes for each of the networks used in the study. Subfolders are named after the date of the scrape. 
 - Notebooks: Where all notebooks used to compute the used measures and filter the scraped data for the study. 
