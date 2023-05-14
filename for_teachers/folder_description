@@ -1,8 +1,0 @@
-This folder is for updating Luca and Michele on our project progress. 
-
-The "politics.png" is the first projected network made. 
-Every node is a user who has both commmented a post and made a post within our set criteria. 
-The nodes are colored based on the embedding score we got from usinf Sentencetransformers and then PCA-ing the comments to one dimension. 
-The edges are colored based on the comments sentiment, green edges being positive and red being negative. 
-
-A pretrained huggingface transformer model has been used for the sentiment analysis and was tested on 8000 tweets where it had a ~70% accuracy. 
